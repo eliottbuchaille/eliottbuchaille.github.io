@@ -118,24 +118,15 @@ PROJECTS = [
   ('pair', [('apex-moodboard', 'Moodboard : métal, néon, carbone', 'contain'), ('apex-rendu-espace-principal', 'Simulateurs alignés le long de la façade')]),
  ],
 },
-# ---------------------------------------------------------------- PLONGEE
+# ---------------------------------------------------------------- PLONGEE (page sur mesure : build_plongee)
 {
- 'slug': 'plongee', 'title': 'Boutique de plongée', 'kicker': 'Retail · Lyon 5e',
- 'subtitle': "Une boutique qui emmène ses clients sous la surface : le parcours suit la descente, du bleu clair aux profondeurs.",
- 'teaser': "Une boutique immersive inspirée des fonds marins : un dégradé du clair au foncé accompagne le parcours, comme une descente sous l'eau.",
- 'cover': 'plongee-aquarium-central', 'cover_alt': 'Aquarium central et rocher, présentoirs de bouteilles',
- 'tags': ['Retail', 'Concept store', 'Immersif'],
- 'facts': [('Lieu', 'Rue de la Quarantaine, Lyon 5e'), ('Surface', '170 m²'), ('Dates', 'Sept. — oct. 2024'), ('Type', 'Boutique spécialisée'), ('Logiciels', 'SketchUp · V-Ray · Photoshop')],
- 'blocks': [
-  ('chapter', '01', 'Concept', "La descente <em>sous l'eau</em>.",
-   "<p>Un dégradé de couleurs, du clair au foncé, accompagne la progression dans la boutique et rappelle la descente sous la surface. Au centre, un aquarium et un rocher deviennent le point d'orgue du parcours.</p><p>La boutique s'installe au cœur du 5<sup>e</sup> arrondissement, un quartier chargé d'histoire et de caractère.</p>"),
-  ('bleed', 'plongee-vue-ensemble', "Vue d’ensemble : combinaisons, pouf central et verrière", 'tall'),
-  ('chapter', '02', 'Matières & couleurs', "Du turquoise <em>au bleu profond</em>.",
-   "<p>Des matières naturelles aux textures organiques et de la pierre, associées au verre et au métal qui rappellent l'équipement de plongée. Les éclairages évoquent la beauté et le mystère des océans.</p>",
-   [('Palette', 'Bleu clair, turquoise, bleu profond'), ('Matières', 'Pierre, textures organiques, verre, métal'), ('Lumière', 'Reflets et halos aquatiques')]),
-  ('pair', [('plongee-zone-bouteilles', 'Zone bouteilles et présentoirs muraux'), ('plongee-moodboard', 'Moodboard et palette', 'contain')]),
-  ('bleed', 'plongee-axonometrique', "Axonométrie : le parcours du clair vers le profond", 'mid'),
- ],
+ 'slug': 'plongee', 'title': 'Maison Isobathe', 'kicker': 'Boutique de plongée · Lyon 5e', 'custom': True,
+ 'subtitle': "Une boutique de plongée qui se visite comme une descente : du bleu clair de la surface jusqu'à l'abysse.",
+ 'teaser': "Une boutique de plongée pensée comme une descente sous l'eau, et son identité Maison Isobathe : du bleu clair de l'entrée jusqu'au bleu nuit des profondeurs.",
+ 'cover': 'isb-entree', 'cover_alt': "Entrée de la boutique : l'aquarium central et le rocher",
+ 'tags': ['Retail', 'Projet de groupe', 'Identité de marque'],
+ 'facts': [('Lieu', 'Rue de la Quarantaine, Lyon 5e'), ('Surface', '170 m²'), ('Projet', 'CREAD 3A · 2024'), ('Identité', 'Rebranding 2026'), ('Équipe', 'E. Buchaille, E. Hilaire, B. Linet')],
+ 'blocks': [],
 },
 # ---------------------------------------------------------------- BIARRITZ
 {

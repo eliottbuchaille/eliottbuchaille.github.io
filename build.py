@@ -351,6 +351,11 @@ if __name__ == '__main__':
     os.makedirs(os.path.join(ROOT, 'projets'), exist_ok=True)
     open(os.path.join(ROOT, 'index.html'), 'w').write(build_index())
     for i, pr in enumerate(PROJECTS):
-        open(os.path.join(ROOT, 'projets', pr['slug'] + '.html'), 'w').write(build_project(i))
+        if pr.get('custom'):
+            import sys, plongee_page
+            html_ = plongee_page.build_plongee(i, sys.modules[__name__])
+        else:
+            html_ = build_project(i)
+        open(os.path.join(ROOT, 'projets', pr['slug'] + '.html'), 'w').write(html_)
     open(os.path.join(ROOT, 'rendus.html'), 'w').write(build_rendus())
     print('ok:', 2 + len(PROJECTS), 'pages')
