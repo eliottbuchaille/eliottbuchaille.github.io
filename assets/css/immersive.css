@@ -95,25 +95,33 @@ body[data-fx="apex"] main img { filter: blur(var(--mb, 0px)); }
 .intro-apex.out { opacity: 0; }
 
 /* ==========================================================================
-   OCÉAN — une journée face à l'océan (Ilbarritz)
+   MARÉE — Ilbarritz : la mer monte et se retire, les images se découvrent
    ========================================================================== */
-body[data-fx="ocean"] { --fx-base: #9FB6CC; --accent: #1F4D3A; }
-body[data-fx="ocean"] .fx-bg { background: linear-gradient(180deg, var(--sky-a, #9FB6CC) 0%, var(--sky-b, #F2D3C1) 78%); }
-.fx-sun { position: absolute; width: 16vmin; height: 16vmin; border-radius: 50%; left: var(--sun-x, 10%); top: var(--sun-y, 70%); translate: -50% -50%;
-  background: radial-gradient(circle, var(--sun-c, #FFF4DA) 0 38%, color-mix(in srgb, var(--sun-c, #FFF4DA) 40%, transparent) 52%, transparent 70%); filter: blur(1px); }
-.fx-sun::after { content: ""; position: absolute; inset: -140%; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--sun-c, #fff) 35%, transparent), transparent 60%); }
-.fx-sea { position: absolute; left: 0; right: 0; bottom: 0; height: 15vh; background: linear-gradient(180deg, var(--sea-a, #6E93AE), var(--sea-b, #2C4A63)); }
-.fx-sea::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: rgba(255,255,255,.6); }
-.fx-sea svg { position: absolute; left: 0; width: 200%; height: 100%; animation: swell 18s linear infinite; }
-.fx-sea svg path { fill: none; stroke: rgba(255,255,255,.35); stroke-width: 1; }
-.fx-sea .glint { position: absolute; top: 0; height: 100%; width: 22vmin; left: var(--sun-x, 10%); translate: -50% 0; background: linear-gradient(180deg, color-mix(in srgb, var(--sun-c, #fff) 70%, transparent), transparent 90%); opacity: var(--glint, .4); filter: blur(6px); -webkit-mask: repeating-linear-gradient(180deg, #000 0 3px, transparent 3px 7px); mask: repeating-linear-gradient(180deg, #000 0 3px, transparent 3px 7px); }
-@keyframes swell { to { transform: translateX(-50%); } }
-.fx-shade { position: absolute; inset: 0; opacity: var(--shade, 0); background: repeating-linear-gradient(var(--shade-a, 70deg), rgba(20,40,30,.0) 0 7vw, rgba(20,40,30,.06) 7vw 7.6vw); }
-.clock, .service { padding: 10px 14px; border-radius: 6px; background: color-mix(in srgb, var(--fx-sky, #fff) 55%, transparent); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
-.clock { right: clamp(14px, 2.4vw, 34px); bottom: clamp(18px, 3vh, 30px); text-align: right; }
-.clock b { font-size: clamp(30px, 3vw, 44px); line-height: 1; display: block; }
-.intro-ocean { background: linear-gradient(180deg, #1E2A4A, #5A4A6E 60%, #E98A5B); animation: sunrise 1.4s var(--ease-out) .15s forwards; }
-@keyframes sunrise { to { clip-path: inset(0 0 100% 0); } }
+body[data-fx="tide"] { --fx-base: #ECE4D6; --accent: #1F4D3A; --fx-sky: #ECE4D6; }
+body[data-fx="tide"] .fx-bg { background: radial-gradient(120% 70% at 50% 0%, #F4EEE4, #E6DCCB 70%); }
+body[data-fx="tide"] .fx-bg::after { content: ""; position: absolute; inset: 0; opacity: .35; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .55  0 0 0 0 .48  0 0 0 0 .38  0 0 0 .5 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.fx-tide { position: absolute; left: 0; right: 0; bottom: 0; height: var(--lvl, 20vh); transition: height .9s cubic-bezier(.33,0,.2,1); }
+.fx-tide .wet { position: absolute; left: 0; right: 0; bottom: 100%; height: 7vh; background: linear-gradient(0deg, rgba(150,128,98,.28), rgba(150,128,98,0)); }
+.fx-tide .sea { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(120,165,168,.55), rgba(44,98,104,.75) 60%, rgba(31,77,70,.85)); }
+.fx-tide svg { position: absolute; left: 0; bottom: calc(100% - 22px); width: 200%; height: 46px; animation: swash 9s linear infinite; }
+.fx-tide svg.b { animation-duration: 13s; animation-direction: reverse; opacity: .6; bottom: calc(100% - 30px); }
+.fx-tide .w { fill: rgba(120,165,168,.55); }
+.fx-tide .foam { fill: none; stroke: #fff; stroke-width: 3; stroke-linecap: round; filter: drop-shadow(0 0 4px rgba(255,255,255,.9)); opacity: .9; }
+@keyframes swash { to { transform: translateX(-50%); } }
+.fx-tide .glints { position: absolute; inset: 22px 0 0; background: repeating-linear-gradient(0deg, transparent 0 9px, rgba(255,255,255,.12) 9px 10px); -webkit-mask: linear-gradient(180deg, #000, transparent); mask: linear-gradient(180deg, #000, transparent); animation: shimmer 4s ease-in-out infinite alternate; }
+@keyframes shimmer { from { opacity: .4; } to { opacity: 1; } }
+/* les images se découvrent comme la mer qui se retire */
+body[data-fx="tide"] .reveal-img, body[data-fx="tide"] .bleed, body[data-fx="tide"] .pair .media, body[data-fx="tide"] .trio .media {
+  clip-path: none;
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 600' preserveAspectRatio='none'><path d='M0 0H200V212 C170 226 150 204 120 218 S70 232 40 214 S10 206 0 220V0Z'/></svg>") 0 var(--ebb, 100%) / 100% 300% no-repeat;
+          mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 600' preserveAspectRatio='none'><path d='M0 0H200V212 C170 226 150 204 120 218 S70 232 40 214 S10 206 0 220V0Z'/></svg>") 0 var(--ebb, 100%) / 100% 300% no-repeat;
+  transition: -webkit-mask-position 1.6s cubic-bezier(.33,0,.2,1), mask-position 1.6s cubic-bezier(.33,0,.2,1); }
+body[data-fx="tide"] .ebb { --ebb: 0%; }
+body[data-fx="tide"] .p-hero, body[data-fx="tide"] .next { -webkit-mask: none; mask: none; }
+.intro-tide { background: linear-gradient(180deg, rgba(120,165,168,.95), rgba(31,77,70,.98)); animation: ebbout 1.5s cubic-bezier(.33,0,.2,1) .15s forwards; }
+.intro-tide::before { content: ""; position: absolute; left: 0; right: 0; top: -1px; height: 40px; background: radial-gradient(14px 10px at 50% 100%, #fff 60%, transparent 62%) 0 0 / 28px 40px repeat-x; opacity: .9; }
+@keyframes ebbout { to { transform: translateY(100%); } }
 
 /* ==========================================================================
    PORT — le Vieux-Port, du service du midi au service du soir
@@ -141,5 +149,5 @@ body[data-fx="port"] .fx-bg { background: var(--fx-sky, #EFE7DA); }
 
 @media (prefers-reduced-motion: reduce) {
   .fx-intro { display: none; }
-  .fx-noise span, .fx-sea svg, .fx-ripple::before, .fx-ripple::after, .fx-masts line, .fx-lamps i { animation: none; }
+  .fx-noise span, .fx-tide svg, .fx-tide .glints, .fx-ripple::before, .fx-ripple::after, .fx-masts line, .fx-lamps i { animation: none; }
 }

@@ -119,28 +119,23 @@
     };
   }
 
-  /* ======================= OCEAN ======================= */
-  if (fx === 'ocean') {
-    const clock = document.querySelector('.clock b');
-    const skyA = [[0, '#8EA6C2'], [.25, '#7FB0D8'], [.5, '#4D92CF'], [.72, '#E3A15E'], [.86, '#9A5670'], [1, '#1E2A4A']];
-    const skyB = [[0, '#F2D3C1'], [.25, '#DDEBF2'], [.5, '#D2E8F4'], [.72, '#F7D6A0'], [.86, '#EC8E5C'], [1, '#5A4A6E']];
-    const seaA = [[0, '#8FA9BD'], [.5, '#4F86B0'], [.75, '#C99B6A'], [.88, '#7A4B5E'], [1, '#1C2840']];
-    const seaB = [[0, '#3E5F7A'], [.5, '#21557E'], [.75, '#5C5568'], [1, '#0E1628']];
-    const sunC = [[0, '#FFE2C6'], [.45, '#FFFBEA'], [.72, '#FFD08A'], [.88, '#FF8E55'], [1, '#FF7044']];
+  /* ======================= MARÉE ======================= */
+  if (fx === 'tide') {
+    const tide = document.querySelector('.fx-tide');
+    const ebb = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('ebb'); ebb.unobserve(e.target); }
+    }), { rootMargin: '0px 0px -12% 0px', threshold: .15 });
+    document.querySelectorAll('main .media, main .bleed').forEach(el => ebb.observe(el));
+    let t = 0;
+    const breathe = () => { t += .012; update(); if (!reduce) requestAnimationFrame(breathe); };
     update = () => {
-      const p = progress();
-      const a = grad(skyA, p);
-      setv(bg, '--sky-a', a); setv(bg, '--sky-b', grad(skyB, p)); setv(body, '--fx-sky', a);
-      setv(bg, '--sea-a', grad(seaA, p)); setv(bg, '--sea-b', grad(seaB, p)); setv(bg, '--sun-c', grad(sunC, p));
-      const x = lerp(12, 88, p), y = 84 - Math.sin(p * Math.PI) * 66 + (p > .9 ? (p - .9) * 120 : 0);
-      setv(bg, '--sun-x', x + '%'); setv(bg, '--sun-y', y + '%');
-      setv(bg, '--glint', (.25 + Math.sin(p * Math.PI) * .2 + (p > .7 && p < .95 ? .25 : 0)).toFixed(3));
-      setv(bg, '--shade', (Math.sin(p * Math.PI) * .9).toFixed(3));
-      setv(bg, '--shade-a', lerp(115, 65, p) + 'deg');
-      const h = 7 + p * 14.5, hh = Math.floor(h), mm = Math.floor((h - hh) * 60);
-      if (clock) clock.textContent = `${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')}`;
-      paper(p > .8);
+      // à chaque écran, la mer remonte puis se retire ; elle respire doucement entre deux vagues
+      const ph = (scrollY / innerHeight) % 1;
+      const ebbing = 1 - ease(clamp(ph * 1.25));
+      const lvl = 5 + ebbing * 17 + Math.sin(t) * 1.6;
+      setv(tide, '--lvl', lvl.toFixed(2) + 'vh');
     };
+    if (!reduce) requestAnimationFrame(breathe);
   }
 
   /* ======================= PORT ======================= */

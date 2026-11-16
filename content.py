@@ -130,7 +130,7 @@ PROJECTS = [
 },
 # ---------------------------------------------------------------- BIARRITZ
 {
- 'slug': 'biarritz', 'title': 'Maison Ilbarritz', 'kicker': 'Résidentiel · Biarritz', 'wide': True, 'fx': 'ocean',
+ 'slug': 'biarritz', 'title': 'Maison Ilbarritz', 'kicker': 'Résidentiel · Biarritz', 'wide': True, 'fx': 'tide',
  'subtitle': "La rénovation et l'extension d'une maison familiale face à l'océan, entre élégance basque et confort contemporain.",
  'teaser': "Rénovation complète et extension d'une maison familiale de 200 m² près de la plage d'Ilbarritz, entre zelliges, bois sculpté et vue sur l'océan.",
  'cover': 'biarritz-salon-cheminee', 'cover_alt': 'Séjour avec cheminée, suspensions et bibliothèque en bois',
