@@ -199,16 +199,16 @@ PROJECTS = [
 },
 # ---------------------------------------------------------------- MARSEILLE
 {
- 'slug': 'marseille', 'title': 'DÉVO', 'kicker': 'Cas réel · Restaurant, Vieux-Port, Marseille', 'fx': 'port',
- 'subtitle': "Un vrai restaurant pour de vrais clients : l'enseigne DÉVO, rue Molière, où la terre cuite, la chaux et le chêne racontent le savoir-faire local.",
- 'teaser': "Cas réel pour l'enseigne marseillaise DÉVO : un restaurant de 176 m² en terre cuite et chaux, présenté à ses fondateurs. Classé 2e de la promotion.",
+ 'slug': 'marseille', 'title': 'Annette', 'kicker': 'Cas réel · Groupe DÉVO · Vieux-Port, Marseille', 'fx': 'port',
+ 'subtitle': "Un vrai restaurant pour de vrais clients : Annette, l'adresse marseillaise du groupe DÉVO, rue Molière, où la terre cuite, la chaux et le chêne racontent le savoir-faire local.",
+ 'teaser': "Cas réel pour Annette, restaurant du groupe DÉVO à Marseille : 176 m² en terre cuite et chaux, présentés aux fondateurs. Classé 2e de la promotion.",
  'cover': 'devo-salle-banquettes', 'cover_alt': 'Salle de réception : banquettes en terre cuite et velours bleu marine',
  'tags': ['Cas réel', '2e de la promo', 'Projet de groupe', 'Restaurant'],
- 'facts': [('Lieu', '7-9 rue Molière, Marseille'), ('Surface', '176,6 m² · ERP type N, 5e cat.'), ('Dates', 'Sept. — déc. 2024'), ('Client', 'Enseigne DÉVO (fondateurs)'), ('Résultat', '2e de la promo · CREAD 3A')],
+ 'facts': [('Lieu', '7-9 rue Molière, Marseille'), ('Surface', '176,6 m² · ERP type N, 5e cat.'), ('Dates', 'Sept. — déc. 2024'), ('Client', 'Groupe DÉVO (fondateurs)'), ('Résultat', '2e de la promo · CREAD 3A')],
  'blocks': [
-  ('html', '''<div class="wrap" style="padding-block:clamp(24px,4vw,56px)"><div class="award reveal"><div class="award-rank"><span class="award-num">2<sup>e</sup></span><span class="award-lbl">de la promotion<br>CREAD 3<sup>e</sup> année</span></div><div class="award-txt"><p class="eyebrow">Cas réel · clients réels</p><p>Une vraie commande des fondateurs de l'enseigne DÉVO : brief en septembre, deux rendez-vous de suivi, études préliminaires, puis présentation de l'APS devant les clients en décembre 2024. Le projet de notre groupe s'est classé deuxième de la promotion.</p><p class="award-note">Par confidentialité, les noms des clients sont masqués sur les plans et documents.</p></div></div></div>'''),
-  ('chapter', '01', 'La marque', "La tradition, <em>au goût du jour</em>.",
-   "<p>DÉVO réinvente la restauration en mêlant héritage culinaire et vision contemporaine, autour d'une assiette chauffante en terre cuite. Pour son adresse marseillaise, rue Molière à deux pas du Vieux-Port, notre groupe a imaginé <strong>« Chez Annette, c'était mieux maintenant »</strong>.</p><p>Le cahier des charges : un concept d'avant-garde et duplicable, un lieu d'échange et de partage, des surfaces optimisées et un soin particulier porté au personnel.</p>",
+  ('html', '''<div class="wrap" style="padding-block:clamp(24px,4vw,56px)"><div class="award reveal"><div class="award-rank"><span class="award-num">2<sup>e</sup></span><span class="award-lbl">de la promotion<br>CREAD 3<sup>e</sup> année</span></div><div class="award-txt"><p class="eyebrow">Cas réel · clients réels</p><p>Une vraie commande des fondateurs du groupe DÉVO pour leur restaurant Annette : brief en septembre, deux rendez-vous de suivi, études préliminaires, puis présentation de l'APS devant les clients en décembre 2024. Le projet de notre groupe s'est classé deuxième de la promotion.</p><p class="award-note">Par confidentialité, les noms des clients sont masqués sur les plans et documents.</p></div></div></div>'''),
+  ('chapter', '01', 'Le groupe', "La tradition, <em>au goût du jour</em>.",
+   "<p>Le groupe DÉVO réinvente la restauration en mêlant héritage culinaire et vision contemporaine, autour d'une assiette chauffante en terre cuite. Pour <strong>Annette</strong>, son restaurant rue Molière à deux pas du Vieux-Port, notre équipe a imaginé l'identité <strong>« Chez Annette, c'était mieux maintenant »</strong>.</p><p>Le cahier des charges : un concept d'avant-garde et duplicable, un lieu d'échange et de partage, des surfaces optimisées et un soin particulier porté au personnel.</p>",
    [('Équipe', 'E. Buchaille, I. Burelle, C. Laumond, L. Mourinier'), ('Phases', 'Brief · RDV 1 et 2 · EP · APS'), ('Places', '30 en terrasse, 34 en salle 2'), ('Cuisine', '29,8 m² en fond de local')]),
   ('bleed', 'devo-bar', "Le comptoir enduit à la chaux, l'arrière-bar en arche et la salle", 'tall'),
   ('chapter', '02', 'Concept', "Le monochrome de la <em>terre cuite</em>.",
