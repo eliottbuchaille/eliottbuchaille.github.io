@@ -120,7 +120,7 @@ PROJECTS = [
 },
 # ---------------------------------------------------------------- PLONGEE (page sur mesure : build_plongee)
 {
- 'slug': 'plongee', 'title': 'Maison Isobathe', 'kicker': 'Boutique de plongée · Lyon 5e', 'custom': True,
+ 'slug': 'plongee', 'title': 'Maison Isobathe', 'kicker': 'Retail · Lyon 5e', 'custom': True,
  'subtitle': "Une boutique de plongée qui se visite comme une descente : du bleu clair de la surface jusqu'à l'abysse.",
  'teaser': "Une boutique de plongée pensée comme une descente sous l'eau, et son identité Maison Isobathe : du bleu clair de l'entrée jusqu'au bleu nuit des profondeurs.",
  'cover': 'isb-entree', 'cover_alt': "Entrée de la boutique : l'aquarium central et le rocher",
