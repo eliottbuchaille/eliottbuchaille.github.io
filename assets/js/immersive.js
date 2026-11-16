@@ -121,21 +121,99 @@
 
   /* ======================= MARÉE ======================= */
   if (fx === 'tide') {
-    const tide = document.querySelector('.fx-tide');
     const ebb = new IntersectionObserver(es => es.forEach(e => {
       if (e.isIntersecting) { e.target.classList.add('ebb'); ebb.unobserve(e.target); }
     }), { rootMargin: '0px 0px -12% 0px', threshold: .15 });
     document.querySelectorAll('main .media, main .bleed').forEach(el => ebb.observe(el));
-    let t = 0;
-    const breathe = () => { t += .012; update(); if (!reduce) requestAnimationFrame(breathe); };
-    update = () => {
-      // à chaque écran, la mer remonte puis se retire ; elle respire doucement entre deux vagues
-      const ph = (scrollY / innerHeight) % 1;
-      const ebbing = 1 - ease(clamp(ph * 1.25));
-      const lvl = 5 + ebbing * 17 + Math.sin(t) * 1.6;
-      setv(tide, '--lvl', lvl.toFixed(2) + 'vh');
-    };
-    if (!reduce) requestAnimationFrame(breathe);
+
+    const cv = document.querySelector('.fx-beach');
+    const gl = cv && (cv.getContext('webgl', { antialias: false, alpha: false, premultipliedAlpha: false }));
+    if (gl) {
+      const vs = 'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
+      const fs = `precision highp float;
+uniform vec2 R; uniform float T; uniform float S; uniform float L;
+float h(vec2 p){p=fract(p*vec2(123.34,456.21));p+=dot(p,p+45.32);return fract(p.x*p.y);}
+float n(vec2 p){vec2 i=floor(p),f=fract(p);vec2 u=f*f*(3.-2.*f);
+ return mix(mix(h(i),h(i+vec2(1,0)),u.x),mix(h(i+vec2(0,1)),h(i+vec2(1,1)),u.x),u.y);}
+float fbm(vec2 p){float v=0.,a=.5;mat2 m=mat2(1.6,1.2,-1.2,1.6);for(int i=0;i<5;i++){v+=a*n(p);p=m*p;a*=.5;}return v;}
+void main(){
+ vec2 uv=gl_FragCoord.xy/R; float asp=R.x/R.y;
+ vec2 w=vec2(uv.x*asp, uv.y + S);           // coordonnées « plage » qui défilent avec la page
+ float t=T;
+ // rivage : niveau de marée + dentelure + va-et-vient du jet de rive
+ float swash = .035*sin(t*.55)+.018*sin(t*1.13+1.7);
+ float edge = L + swash + .07*(fbm(vec2(w.x*.9, w.y*.15 + t*.02))-.5) + .025*(fbm(vec2(w.x*3.5,t*.1))-.5) + .008*(n(vec2(w.x*18.,t*.4))-.5);
+ float d = edge - uv.y;                      // >0 : dans l'eau (profondeur)
+ // sable sec : grain fin, nappes, rides du vent
+ float g = n(w*R.y*.55);
+ float patch = fbm(w*3.);
+ float rip = sin((w.y*90. + fbm(w*6.)*8.))*.5+.5;
+ vec3 dry = vec3(.905,.865,.79) + (patch-.5)*.07 + (g-.5)*.05 - rip*.012;
+ // sable mouillé : plus sombre, brillant, laissé par la dernière vague
+ float wetH = edge + .07 + .03*sin(t*.55-1.);
+ float wet = smoothstep(wetH, edge, uv.y);
+ vec3 wetc = vec3(.70,.63,.53) + (patch-.5)*.06 + (g-.5)*.04;
+ float sheen = pow(fbm(w*vec2(2.,9.)+vec2(0.,t*.02)),3.)*.35;
+ vec3 sand = mix(dry, wetc + sheen, wet*.85);
+ // eau : transparente sur le sable puis turquoise profond
+ float depth = clamp(d*3.2,0.,1.);
+ vec2 q = w*vec2(7.,11.) + vec2(t*.15, -t*.35);
+ float wav = fbm(q + fbm(q*.6+t*.1)*1.5);
+ vec3 shallow = mix(wetc*.92, vec3(.47,.70,.68), .55);
+ vec3 deep = vec3(.10,.33,.36);
+ vec3 water = mix(shallow, deep, smoothstep(0.,1.,depth*1.4));
+ water += (wav-.5)*.08;
+ // reflets du ciel et scintillement
+ float spark = pow(max(0., n(w*vec2(160.,240.)+vec2(t*1.1,-t*1.6))), 40.) * smoothstep(.04,.12,d);
+ water += spark*.35 + smoothstep(.55,.85,wav)*.07;
+ // écume : ligne de bord + dentelle qui se défait vers le large
+ float lace = fbm(w*vec2(38.,60.) + vec2(t*.2, -t*.45) + fbm(w*8.)*1.2);
+ float band = smoothstep(.0,.004,d) * (1.-smoothstep(.01,.09,d));
+ float line = (1.-smoothstep(0.,.006,abs(d-.003))) * (.6+.4*n(vec2(w.x*40.,t)));
+ float foam = clamp(line*.85 + band*smoothstep(.5,.66,lace)*.95 + smoothstep(.12,.02,d)*smoothstep(.6,.72,lace)*.35,0.,1.);
+ float inWater = smoothstep(-.002,.004,d);
+ vec3 col = mix(sand, water, inWater*(.12 + .88*smoothstep(0.,.08,d)));
+ col = mix(col, vec3(.97,.98,.97), foam*inWater);
+ // ombre portée de l'écume sur le sable mouillé
+ col *= 1. - .08*(1.-smoothstep(0.,.02,-d))*(1.-inWater);
+ // vignettage doux
+ col *= .96 + .04*smoothstep(1.2,.2,length(uv-.5));
+ gl_FragColor=vec4(col,1.);
+}`;
+      const mk = (type, src) => { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); return s; };
+      const pr = gl.createProgram();
+      gl.attachShader(pr, mk(gl.VERTEX_SHADER, vs)); gl.attachShader(pr, mk(gl.FRAGMENT_SHADER, fs));
+      gl.linkProgram(pr);
+      if (gl.getProgramParameter(pr, gl.LINK_STATUS)) {
+        gl.useProgram(pr);
+        const buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+        gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+        const loc = gl.getAttribLocation(pr, 'p'); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+        const uR = gl.getUniformLocation(pr, 'R'), uT = gl.getUniformLocation(pr, 'T'), uS = gl.getUniformLocation(pr, 'S'), uL = gl.getUniformLocation(pr, 'L');
+        const scale = Math.min(1, (innerWidth < 760 ? .75 : .6) * (devicePixelRatio || 1));
+        const size = () => { cv.width = Math.round(innerWidth * scale); cv.height = Math.round(innerHeight * scale); gl.viewport(0, 0, cv.width, cv.height); };
+        size(); addEventListener('resize', size);
+        let lvl = .2, visible = true;
+        document.addEventListener('visibilitychange', () => { visible = !document.hidden; });
+        const t0 = performance.now();
+        const frame = now => {
+          // à chaque écran, la mer remonte puis se retire
+          const ph = (scrollY / innerHeight) % 1;
+          const target = .07 + (1 - ease(clamp(ph * 1.25))) * .16;
+          lvl += (target - lvl) * .06;
+          if (visible) {
+            gl.uniform2f(uR, cv.width, cv.height);
+            gl.uniform1f(uT, reduce ? 0 : (now - t0) / 1000);
+            gl.uniform1f(uS, scrollY / innerHeight * .35);
+            gl.uniform1f(uL, lvl);
+            gl.drawArrays(gl.TRIANGLES, 0, 3);
+          }
+          if (!reduce) requestAnimationFrame(frame);
+        };
+        requestAnimationFrame(frame);
+        addEventListener('scroll', () => { if (reduce) requestAnimationFrame(frame); }, { passive: true });
+      }
+    }
   }
 
   /* ======================= PORT ======================= */

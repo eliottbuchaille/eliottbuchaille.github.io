@@ -67,12 +67,8 @@ def markup(fx):
         return ('<div class="fx-bg" aria-hidden="true"><div class="fx-streaks"></div></div>' + hud,
                 f'<div class="fx-intro intro-apex" aria-hidden="true"><div class="lights">{cols}</div><p>LIGHTS OUT · CLIQUER POUR PASSER</p></div>')
     if fx == 'tide':
-        wave = ''.join(f'Q {x + 45} {8 if (x // 90) % 2 == 0 else 26} {x + 90} 17 ' for x in range(0, 2880, 90))
-        sv = (f'<svg viewBox="0 0 2880 46" preserveAspectRatio="none"><path class="w" d="M0 17 {wave} V46 H0 Z"/>'
-              f'<path class="foam" d="M0 17 {wave}"/></svg>')
-        bg = (f'<div class="fx-bg" aria-hidden="true"><div class="fx-tide"><span class="wet"></span><div class="sea"></div>'
-              f'{sv}{sv.replace("<svg ", "<svg class=\"b\" ", 1)}<span class="glints"></span></div></div>')
-        return (bg, '<div class="fx-intro intro-tide" aria-hidden="true"></div>')
+        return ('<div class="fx-bg" aria-hidden="true"><canvas class="fx-beach"></canvas><div class="fx-veil"></div></div>',
+                '<div class="fx-intro intro-tide" aria-hidden="true"></div>')
     if fx == 'port':
         bg = f'<div class="fx-bg" aria-hidden="true"><div class="fx-ripple"></div><div class="fx-lamps"></div>{masts_svg()}</div>'
         hud = '<div class="fx-hud service" aria-hidden="true"><b>12:00</b><small>Service du midi</small></div>'
