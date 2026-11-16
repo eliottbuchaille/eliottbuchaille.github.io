@@ -253,7 +253,7 @@ def block(p, b, accent):
         cards = []
         for i, (slug, name, kind, pages) in enumerate(items):
             href = f'{p}assets/pdf/{slug}.pdf'
-            thumb = slug.split('/')[-1].replace('marelle-', 'marelle-doc-')
+            _pre, _rest = slug.split('/')[-1].split('-', 1); thumb = f'{_pre}-doc-{_rest}'
             cards.append(f'''<a class="doc reveal" style="--d:{i * .04:.2f}s" href="{href}" target="_blank" rel="noopener"><div class="doc-th">{img(p, thumb, name, '(max-width: 760px) 50vw, 300px')}</div><div class="doc-meta"><b>{e(name)}</b><span>{e(kind)} · {pages} p.</span><span class="doc-dl">PDF ↗</span></div></a>''')
         return f'<div class="wrap" style="padding-block:clamp(20px,3vw,40px)"><p class="eyebrow reveal" style="margin-bottom:22px">{e(title)}</p><div class="docs">{"".join(cards)}</div></div>'
     if t == 'swatches':
