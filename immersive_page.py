@@ -67,7 +67,11 @@ def markup(fx):
         return ('<div class="fx-bg" aria-hidden="true"><div class="fx-streaks"></div></div>' + hud,
                 f'<div class="fx-intro intro-apex" aria-hidden="true"><div class="lights">{cols}</div><p>LIGHTS OUT · CLIQUER POUR PASSER</p></div>')
     if fx == 'tide':
-        return ('<div class="fx-bg" aria-hidden="true"><canvas class="fx-beach"></canvas><div class="fx-veil"></div></div>',
+        # Vidéo : « Sea waves splashing on shore », Media Loopers, Pexels (licence Pexels, usage libre)
+        video = ('<video class="fx-video" muted loop playsinline autoplay preload="auto" '
+                 'data-src-hd="https://videos.pexels.com/video-files/9758695/9758695-hd_1280_720_30fps.mp4" '
+                 'data-src-sd="https://videos.pexels.com/video-files/9758695/9758695-sd_960_540_30fps.mp4"></video>')
+        return ('<div class="fx-bg" aria-hidden="true"><canvas class="fx-beach"></canvas>' + video + '<div class="fx-veil"></div></div>',
                 '<div class="fx-intro intro-tide" aria-hidden="true"></div>')
     if fx == 'port':
         bg = f'<div class="fx-bg" aria-hidden="true"><div class="fx-ripple"></div><div class="fx-lamps"></div>{masts_svg()}</div>'

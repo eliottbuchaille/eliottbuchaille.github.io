@@ -126,6 +126,14 @@
     }), { rootMargin: '0px 0px -12% 0px', threshold: .15 });
     document.querySelectorAll('main .media, main .bleed').forEach(el => ebb.observe(el));
 
+    // vidéo réelle (Pexels) si elle se charge ; sinon la plage calculée reste en fond
+    let videoOn = false;
+    const vid = document.querySelector('.fx-video');
+    if (vid && !reduce) {
+      vid.src = innerWidth < 900 ? vid.dataset.srcSd : vid.dataset.srcHd;
+      vid.addEventListener('playing', () => { videoOn = true; body.classList.add('has-video'); paper(true); }, { once: true });
+      const p = vid.play(); if (p && p.catch) p.catch(() => {});
+    }
     const cv = document.querySelector('.fx-beach');
     const gl = cv && (cv.getContext('webgl', { antialias: false, alpha: false, premultipliedAlpha: false }));
     if (gl) {
@@ -201,14 +209,14 @@ void main(){
           const ph = (scrollY / innerHeight) % 1;
           const target = .07 + (1 - ease(clamp(ph * 1.25))) * .16;
           lvl += (target - lvl) * .06;
-          if (visible) {
+          if (visible && !videoOn) {
             gl.uniform2f(uR, cv.width, cv.height);
             gl.uniform1f(uT, reduce ? 0 : (now - t0) / 1000);
             gl.uniform1f(uS, scrollY / innerHeight * .35);
             gl.uniform1f(uL, lvl);
             gl.drawArrays(gl.TRIANGLES, 0, 3);
           }
-          if (!reduce) requestAnimationFrame(frame);
+          if (!reduce && !(videoOn && vid.currentTime > 2)) requestAnimationFrame(frame);
         };
         requestAnimationFrame(frame);
         addEventListener('scroll', () => { if (reduce) requestAnimationFrame(frame); }, { passive: true });
