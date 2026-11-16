@@ -125,7 +125,7 @@ def build_index():
     out.append(nav(p))
     out.append(f'''<main id="contenu">
 <section class="hero" aria-label="Introduction">
- <div class="hero-media">{img(p, 'hero', 'Escalier hélicoïdal en chêne et mur de pierre, baie ouverte sur le jardin', attrs='data-hero-parallax', eager=True)}</div>
+ <div class="hero-media">{img(p, 'r-chalet-4', 'Chambre de chalet sous charpente, mur de pierre et baie ouverte sur les sommets enneigés', attrs='data-hero-parallax', eager=True)}</div>
  <div class="hero-inner">
   <div class="wrap">
    <h1>Des espaces<br>qui se <em>ressentent</em>.</h1>
