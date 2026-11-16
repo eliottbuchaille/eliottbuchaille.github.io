@@ -34,10 +34,10 @@ SKILLS = [
     ('ArchiCAD', 'BIM & permis'),
     ('AutoCAD', 'Plans & détails'),
     ('Blender', 'Scènes & lumière'),
-    ('Cinema 4D', 'Redshift'),
     ('Twinmotion', 'Rendu temps réel'),
     ('Photoshop', 'Retouche & planches'),
     ('InDesign', 'Mise en page'),
+    ('IA générative', 'Claude · Gemini · ChatGPT'),
 ]
 
 TIMELINE = [
