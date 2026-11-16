@@ -289,7 +289,14 @@ def build_project(i):
     p = '../'
     nxt = PROJECTS[(i + 1) % len(PROJECTS)]
     h = head(p, f"{pr['title']} — Eliott Buchaille", pr['teaser'])
-    out = [h, nav(p, 'projets')]
+    fx = pr.get('fx')
+    fx_before, fx_intro = ('', '')
+    if fx:
+        import immersive_page
+        fx_before, fx_intro = immersive_page.markup(fx)
+        h = h.replace('</head>', f'<link rel="stylesheet" href="{p}assets/css/immersive.css">\n</head>')
+        h = h.replace('<body>', f'<body data-fx="{fx}">')
+    out = [h, fx_intro, fx_before, nav(p, 'projets')]
     facts = ''.join(f'<div class="fact reveal" style="--d:{j * .05:.2f}s"><div class="k">{e(k)}</div><div class="v">{e(v)}</div></div>' for j, (k, v) in enumerate(pr['facts']))
     style = f' style="--accent:{pr["accent"]}"' if pr.get('accent') else ''
     out.append(f'''<main id="contenu"{style}>
@@ -305,6 +312,9 @@ def build_project(i):
 ''')
     for b in pr['blocks']:
         out.append(block(p, b, pr.get('accent')))
+    if fx:
+        import immersive_page
+        out.append(immersive_page.EXTRA_END.get(fx, ''))
     out.append(f'''
 <a class="next" href="{nxt['slug']}.html">
  <div class="bg">{img(p, nxt['cover'], '', '100vw')}</div>
@@ -313,7 +323,10 @@ def build_project(i):
 </a>
 </main>
 ''')
-    out.append(footer(p))
+    f = footer(p)
+    if fx:
+        f = f.replace('<script src="../assets/js/site.js" defer></script>', '<script src="../assets/js/site.js" defer></script>\n<script src="../assets/js/immersive.js" defer></script>')
+    out.append(f)
     return ''.join(out)
 
 def build_rendus():

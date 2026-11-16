@@ -56,7 +56,7 @@ TIMELINE = [
 PROJECTS = [
 # ---------------------------------------------------------------- MARELLE
 {
- 'slug': 'marelle', 'title': 'Marelle', 'kicker': 'Tiers-lieu étudiant · 4e année', 'wide': True,
+ 'slug': 'marelle', 'title': 'Marelle', 'kicker': 'Tiers-lieu étudiant · 4e année', 'wide': True, 'fx': 'marelle',
  'subtitle': "La réhabilitation de l'ancienne école maternelle Gilibert, à Lyon, en tiers-lieu où les étudiants viennent se décharger l'esprit.",
  'teaser': "L'ancienne école Gilibert devient un tiers-lieu pour étudiants : coworking, bibliothèque, café et repos, pensés comme un parcours de l'ouvert vers le concentré.",
  'cover': 'marelle-open-space-2', 'cover_alt': 'Open space : grandes baies cintrées et voilages sur la cour',
@@ -89,7 +89,7 @@ PROJECTS = [
 },
 # ---------------------------------------------------------------- APEX
 {
- 'slug': 'apex', 'title': 'APEX', 'kicker': 'Drive & Drink · Projet libre 3e année', 'accent': '#C1121C',
+ 'slug': 'apex', 'title': 'APEX', 'kicker': 'Drive & Drink · Projet libre 3e année', 'accent': '#C1121C', 'fx': 'apex',
  'subtitle': "Un club Formule 1 à Vénissieux : piloter, regarder les Grands Prix, puis partager un verre, dans un lieu pensé comme un paddock.",
  'teaser': "Bar immersif inspiré de la Formule 1 : simulateurs, bar central en forme de circuit, lounge paddock et cinéma, dans un ancien local de 350 m².",
  'cover': 'apex-rendu-espace-principal', 'cover_alt': 'Espace principal : bar circuit, simulateurs et néons rouges',
@@ -130,7 +130,7 @@ PROJECTS = [
 },
 # ---------------------------------------------------------------- BIARRITZ
 {
- 'slug': 'biarritz', 'title': 'Maison Ilbarritz', 'kicker': 'Résidentiel · Biarritz', 'wide': True,
+ 'slug': 'biarritz', 'title': 'Maison Ilbarritz', 'kicker': 'Résidentiel · Biarritz', 'wide': True, 'fx': 'ocean',
  'subtitle': "La rénovation et l'extension d'une maison familiale face à l'océan, entre élégance basque et confort contemporain.",
  'teaser': "Rénovation complète et extension d'une maison familiale de 200 m² près de la plage d'Ilbarritz, entre zelliges, bois sculpté et vue sur l'océan.",
  'cover': 'biarritz-salon-cheminee', 'cover_alt': 'Séjour avec cheminée, suspensions et bibliothèque en bois',
@@ -152,7 +152,7 @@ PROJECTS = [
 },
 # ---------------------------------------------------------------- MARSEILLE
 {
- 'slug': 'marseille', 'title': 'Restaurant Molière', 'kicker': 'Restauration · Marseille',
+ 'slug': 'marseille', 'title': 'Restaurant Molière', 'kicker': 'Restauration · Vieux-Port, Marseille', 'fx': 'port',
  'subtitle': "Un restaurant méditerranéen où la terre cuite, la chaux et le chêne racontent le savoir-faire local.",
  'teaser': "Projet de groupe : un restaurant de 140 m² aux matériaux nobles, avec banquettes sur mesure en terre cuite et bar enduit à la chaux.",
  'cover': 'restaurant-salle-banquettes', 'cover_alt': 'Salle : banquettes en terre cuite et appliques murales',
@@ -160,32 +160,13 @@ PROJECTS = [
  'facts': [('Lieu', '7-9 rue Molière, Marseille'), ('Surface', '140 m²'), ('Dates', 'Sept. — nov. 2024'), ('Type', 'Restaurant · projet de groupe'), ('Logiciels', 'SketchUp · V-Ray · Photoshop')],
  'blocks': [
   ('chapter', '01', 'Concept', "Matières nobles, <em>usage juste</em>.",
-   "<p>Le projet allie matériaux nobles et fonctionnalité pour une ambiance chaleureuse et raffinée. Les banquettes sur mesure en terre cuite et le bar enduit à la chaux sont les deux pièces maîtresses.</p><p>Marseille, carrefour touristique de la Méditerranée, connaît une forte demande pour une cuisine de qualité et inventive.</p>"),
+   "<p>Le projet allie matériaux nobles et fonctionnalité pour une ambiance chaleureuse et raffinée. Les banquettes sur mesure en terre cuite et le bar enduit à la chaux sont les deux pièces maîtresses.</p><p>Rue Molière, à deux pas du Vieux-Port : un carrefour touristique de la Méditerranée, où la demande pour une cuisine de qualité et inventive ne cesse de grandir.</p>"),
   ('bleed', 'restaurant-vue-ensemble-bar', "Le bar enduit à la chaux et la salle", 'tall'),
   ('chapter', '02', 'Matériaux', "La Méditerranée <em>en textures</em>.",
    "<p>L'aménagement fluidifie les circulations tout en gardant un caractère méditerranéen authentique, en lien avec les traditions locales.</p>",
    [('Terre cuite', 'Sols et revêtements, caractère brut'), ('Chaux', 'Enduits mats et texturés'), ('Chêne', 'Structures et mobilier'), ('Céramiques & tissus', 'Détails subtils')]),
   ('pair', [('restaurant-croquis-banquettes', 'Croquis des banquettes sur mesure', 'contain'), ('restaurant-facade-devanture', 'Façade et devanture', 'contain')]),
   ('pair', [('restaurant-axonometrie', 'Axonométrie de la salle de réception', 'contain'), ('restaurant-moodboard', 'Moodboard et inspirations', 'contain')]),
- ],
-},
-# ---------------------------------------------------------------- ST-ETIENNE
-{
- 'slug': 'saint-etienne', 'title': 'Appartement Rives', 'kicker': 'Résidentiel · Saint-Étienne',
- 'subtitle': "Un appartement étudiant de 33 m² pour deux, organisé autour de la lumière et d'une verrière.",
- 'teaser': "Projet de groupe sur un cas réel : la rénovation d'un 33 m² pour deux étudiants, avec une verrière qui partage la lumière entre chambre et séjour.",
- 'cover': 'st-etienne-salon-verriere', 'cover_alt': 'Séjour et verrière vers la chambre',
- 'tags': ['Projet de groupe', 'Cas réel', 'Petite surface'],
- 'facts': [('Lieu', 'Rue Basse des Rives, Saint-Étienne'), ('Surface', '33 m²'), ('Dates', 'Déc. 2023 — janv. 2024'), ('Programme', '2 étudiants'), ('Logiciels', 'SketchUp · V-Ray · Photoshop')],
- 'blocks': [
-  ('chapter', '01', 'Objectif', "Petit espace, <em>grande sérénité</em>.",
-   "<p>Un appartement pensé pour deux étudiants, près de l'université Jean Monnet. L'ambiance se veut apaisante, propice à la détente comme aux études.</p><p>La pièce de vie réunit un canapé deux places et une cuisine équipée. Une grande baie l'inonde de lumière, et une verrière la partage avec la chambre.</p>"),
-  ('bleed', 'st-etienne-cuisine-salon', "Cuisine et séjour : bois clair et vert thé", 'tall'),
-  ('chapter', '02', 'Concept décoratif', "Zen et <em>naturel</em>.",
-   "<p>L'aménagement s'articule autour d'une composition verticale et d'un jeu de lumières et de reflets.</p>",
-   [('Bois clair', 'Chaleur et aspect organique'), ('Verre', 'Transparences'), ('Métal noir', 'Touches de modernité'), ('Couleurs', 'Blanc, beige, vert thé')]),
-  ('pair', [('st-etienne-plan', "Plan d’aménagement", 'contain'), ('st-etienne-moodboard', 'Planche couleurs et matières', 'contain')]),
-  ('pair', [('st-etienne-details-salon', 'Planche de présentation', 'contain'), ('st-etienne-salon-verriere', 'Chambre vue depuis la verrière')]),
  ],
 },
 ]
