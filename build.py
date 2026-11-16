@@ -248,6 +248,14 @@ def block(p, b, accent):
     if t == 'sheet':
         _, name, alt = b
         return f'''<div class="wrap" style="padding-block:clamp(20px,3vw,40px)"><figure style="margin:0" class="sheet reveal"><div class="media contain blanc" {zoom_attrs(p, name, alt)} role="button" tabindex="0" aria-label="Agrandir : {e(alt)}">{img(p, name, alt, '(max-width: 1400px) 100vw, 1400px')}</div><figcaption class="cap">{e(alt)}</figcaption></figure></div>'''
+    if t == 'docs':
+        _, title, items = b
+        cards = []
+        for i, (slug, name, kind, pages) in enumerate(items):
+            href = f'{p}assets/pdf/{slug}.pdf'
+            thumb = slug.split('/')[-1].replace('marelle-', 'marelle-doc-')
+            cards.append(f'''<a class="doc reveal" style="--d:{i * .04:.2f}s" href="{href}" target="_blank" rel="noopener"><div class="doc-th">{img(p, thumb, name, '(max-width: 760px) 50vw, 300px')}</div><div class="doc-meta"><b>{e(name)}</b><span>{e(kind)} · {pages} p.</span><span class="doc-dl">PDF ↗</span></div></a>''')
+        return f'<div class="wrap" style="padding-block:clamp(20px,3vw,40px)"><p class="eyebrow reveal" style="margin-bottom:22px">{e(title)}</p><div class="docs">{"".join(cards)}</div></div>'
     if t == 'swatches':
         _, title, sw = b
         chips = ''.join(f'<div class="swatch reveal" style="--d:{i * .05:.2f}s"><div class="chip" style="background:{c}"></div><b>{e(n)}</b><span>{e(d)}</span></div>' for i, (n, c, d) in enumerate(sw))
