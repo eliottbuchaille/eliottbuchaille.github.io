@@ -93,7 +93,7 @@ def footer(p):
     return f'''<footer class="footer">
  <div class="wrap">
   <a class="brand" href="{p}index.html">{mono()}<span>Eliott Buchaille</span></a>
-  <span>Architecture intérieure · Lyon — Genève</span>
+  <span>Architecture intérieure · Lyon — Annecy — Suisse</span>
   <span>© <span data-year></span> Eliott Buchaille · « Architecture is just art we live in »</span>
  </div>
 </footer>
@@ -112,8 +112,7 @@ def contact_block(p):
   <div class="contact-grid">
    <div class="reveal" style="--d:.15s"><div class="k">E-mail</div><a href="mailto:{c['email']}">{c['email']}</a></div>
    <div class="reveal" style="--d:.22s"><div class="k">Téléphone</div><a href="tel:{c['tel'].replace(' ', '')}">{c['tel']}</a></div>
-   <div class="reveal" style="--d:.29s"><div class="k">{e(c['dispo_k'])}</div><span class="v">{e(c['dispo'])}</span></div>
-   <div class="reveal" style="--d:.36s"><div class="k">Secteurs</div><span class="v">{e(c['zones'])}</span></div>
+   <div class="reveal" style="--d:.29s"><div class="k">Secteurs</div><span class="v">{e(c['zones'])}</span></div>
   </div>
  </div>
 </section>

@@ -24,9 +24,7 @@ SITE = {
     'contact': {
         'email': 'eliottbuchaille@gmail.com',
         'tel': '06 43 65 23 26',
-        'dispo_k': 'Recherche',
-        'dispo': 'Alternance & collaborations',
-        'zones': 'Lyon · Genève · Lausanne',
+        'zones': 'Auvergne-Rhône-Alpes (Lyon, Annecy) · Suisse',
     },
 }
 
