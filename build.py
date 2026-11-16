@@ -241,10 +241,13 @@ def block(p, b, accent):
             opt = it[2] if len(it) > 2 else ''
             ratio = 'r-4-5' if 'portrait' in opt else 'r-3-2'
             if t == 'trio' and j == 0: ratio = ''
-            contain = (' contain' if 'contain' in opt else '') + (' contain nuit' if 'nuit' in opt else '')
+            contain = (' contain' if 'contain' in opt else '') + (' contain nuit' if 'nuit' in opt else '') + (' contain blanc' if 'blanc' in opt else '')
             style = ' style="height:100%"' if (t == 'trio' and j == 0) else ''
             figs.append(f'''<figure style="margin:0" class="reveal" ><div class="media {ratio}{contain}"{style} {zoom_attrs(p, name, alt)} role="button" tabindex="0" aria-label="Agrandir : {e(alt)}">{img(p, name, alt, '(max-width: 760px) 100vw, 50vw')}</div><figcaption class="cap">{e(alt)}</figcaption></figure>''')
         return f'<div class="wrap" style="padding-block:clamp(20px,3vw,40px)"><div class="{t}">{"".join(figs)}</div></div>'
+    if t == 'sheet':
+        _, name, alt = b
+        return f'''<div class="wrap" style="padding-block:clamp(20px,3vw,40px)"><figure style="margin:0" class="sheet reveal"><div class="media contain blanc" {zoom_attrs(p, name, alt)} role="button" tabindex="0" aria-label="Agrandir : {e(alt)}">{img(p, name, alt, '(max-width: 1400px) 100vw, 1400px')}</div><figcaption class="cap">{e(alt)}</figcaption></figure></div>'''
     if t == 'swatches':
         _, title, sw = b
         chips = ''.join(f'<div class="swatch reveal" style="--d:{i * .05:.2f}s"><div class="chip" style="background:{c}"></div><b>{e(n)}</b><span>{e(d)}</span></div>' for i, (n, c, d) in enumerate(sw))

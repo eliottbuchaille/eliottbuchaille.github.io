@@ -347,6 +347,10 @@ a:hover .link-arrow .line::after, .link-arrow:hover .line::after { transform-ori
 .contain img { object-fit: contain !important; }
 [data-theme="dark"] .contain { background: #EFEAE3; }
 .contain.nuit, [data-theme="dark"] .contain.nuit { background: #1B1B1B; }
+.contain.blanc, [data-theme="dark"] .contain.blanc { background: #fff; }
+.contain.blanc img { padding: clamp(10px, 2vw, 28px); box-sizing: border-box; }
+.sheet .media { cursor: zoom-in; }
+.sheet .media img { width: 100%; height: auto; display: block; transform: none; }
 
 /* palette */
 .swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); gap: 14px; margin-top: 30px; }
