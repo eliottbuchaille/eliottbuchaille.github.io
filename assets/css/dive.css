@@ -17,8 +17,8 @@
 .dive-page main, .dive-page .footer { position: relative; z-index: 2; }
 .dive-page main { color: var(--fg); transition: color 1.2s var(--ease); }
 .dive-page .footer { background: var(--nuitb); color: rgba(244,241,234,.6); border-color: rgba(244,241,234,.12); }
-.dive-page .nav { --text: var(--fg); --text-2: var(--fg2); --line: var(--fgl); background: transparent; -webkit-backdrop-filter: none; backdrop-filter: none; color: var(--fg); transition: color 1.2s var(--ease), transform .5s var(--ease-out); }
-.dive-page .nav.is-scrolled { background: color-mix(in srgb, var(--water, #AAC7D7) 55%, transparent); -webkit-backdrop-filter: saturate(160%) blur(18px); backdrop-filter: saturate(160%) blur(18px); border-color: var(--fgl); }
+.dive-page .nav { --text: var(--fg); --text-2: var(--fg2); --line: var(--fgl); --glass-tint: color-mix(in srgb, var(--water, #AAC7D7) 30%, transparent); color: var(--fg); transition: color 1.2s var(--ease), transform .5s var(--ease-out); }
+.dive-page .nav.is-scrolled { --glass-tint: color-mix(in srgb, var(--water, #AAC7D7) 48%, transparent); }
 .dive-page .theme-toggle { display: none; }
 
 /* ---- l'eau ---- */

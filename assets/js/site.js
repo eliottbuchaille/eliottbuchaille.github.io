@@ -49,6 +49,33 @@
     lastY = y;
   };
 
+
+  /* ---------- liquid glass : réfraction (Chromium) et reflet au pointeur ---------- */
+  (() => {
+    const brands = (navigator.userAgentData && navigator.userAgentData.brands) || [];
+    if (brands.some(b => /Chromium|Google Chrome|Microsoft Edge/.test(b.brand))) {
+      const ns = 'http://www.w3.org/2000/svg';
+      const svg = document.createElementNS(ns, 'svg');
+      svg.setAttribute('width', '0'); svg.setAttribute('height', '0'); svg.setAttribute('aria-hidden', 'true');
+      svg.style.position = 'absolute';
+      svg.innerHTML = '<filter id="lg-refract" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">' +
+        '<feTurbulence type="fractalNoise" baseFrequency="0.006 0.018" numOctaves="2" seed="11" result="n"/>' +
+        '<feGaussianBlur in="n" stdDeviation="3" result="nb"/>' +
+        '<feDisplacementMap in="SourceGraphic" in2="nb" scale="22" xChannelSelector="R" yChannelSelector="G"/></filter>';
+      document.body.appendChild(svg);
+      document.documentElement.classList.add('lg-refract');
+    }
+    const glass = [...document.querySelectorAll('.nav, .lg')];
+    if (!glass.length || matchMedia('(hover: none)').matches) return;
+    addEventListener('pointermove', e => {
+      glass.forEach(g => {
+        const r = g.getBoundingClientRect();
+        g.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100).toFixed(1) + '%');
+        g.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100).toFixed(1) + '%');
+      });
+    }, { passive: true });
+  })();
+
   /* ---------- apparition du hero ---------- */
   requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove('hero-load')));
 
