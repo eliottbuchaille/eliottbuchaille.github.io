@@ -9,6 +9,7 @@
               dans l'ordre. Toutes les photos restent visibles via « Voir toute la série ».
    layout   : "spread" double page · "wide" grande image · "register" grille numérotée
               · "dark" fond noir · "strip" bandeau
+   blur     : zones floutées sur une photo (plaques), en % : [gauche, haut, droite, bas].
    Les textes sont en deux langues : { "fr": "...", "en": "..." }.
    ============================================================ */
 window.PHOTO = {
@@ -693,25 +694,57 @@ window.PHOTO = {
      "w": 3840,
      "h": 5760,
      "s": "750bdaa9-6889-4c52-8e7d-bec395815a6e_rw_1200.jpg?h=6d8f468a28ec67b9882eaed030f64042",
-     "l": "750bdaa9-6889-4c52-8e7d-bec395815a6e_rw_1920.jpg?h=e2d7bb976952c7449dc64f04e5af8011"
+     "l": "750bdaa9-6889-4c52-8e7d-bec395815a6e_rw_1920.jpg?h=e2d7bb976952c7449dc64f04e5af8011",
+     "blur": [
+      [
+       37.3,
+       54.2,
+       44.5,
+       56.1
+      ]
+     ]
     },
     {
      "w": 3840,
      "h": 5760,
      "s": "e24f330d-b479-4382-901f-1f27057daa31_rw_1200.jpg?h=25e144edb91acb4c5758b73d9f3a72eb",
-     "l": "e24f330d-b479-4382-901f-1f27057daa31_rw_1920.jpg?h=892381a230a260b0fd06b57650cad288"
+     "l": "e24f330d-b479-4382-901f-1f27057daa31_rw_1920.jpg?h=892381a230a260b0fd06b57650cad288",
+     "blur": [
+      [
+       29.5,
+       56.6,
+       46,
+       60.6
+      ]
+     ]
     },
     {
      "w": 3840,
      "h": 5760,
      "s": "a3af4b87-1b7f-4548-a7d1-a3e5f27cabfa_rw_1200.jpg?h=8f226d98b1b4b3a9b96d8bc03c9d1ea6",
-     "l": "a3af4b87-1b7f-4548-a7d1-a3e5f27cabfa_rw_1920.jpg?h=b02c5d28562cc96a6e6c0ac1455aa22d"
+     "l": "a3af4b87-1b7f-4548-a7d1-a3e5f27cabfa_rw_1920.jpg?h=b02c5d28562cc96a6e6c0ac1455aa22d",
+     "blur": [
+      [
+       0,
+       62.9,
+       23.5,
+       68.3
+      ]
+     ]
     },
     {
      "w": 3840,
      "h": 5760,
      "s": "6a1d4404-c3ff-49a0-850b-fce6c9e04fc7_rw_1200.jpg?h=5cf1308457cddd20f10aea77ad439adf",
-     "l": "6a1d4404-c3ff-49a0-850b-fce6c9e04fc7_rw_1920.jpg?h=5bfb13bcda08fc2fc6f7920914af4bc3"
+     "l": "6a1d4404-c3ff-49a0-850b-fce6c9e04fc7_rw_1920.jpg?h=5bfb13bcda08fc2fc6f7920914af4bc3",
+     "blur": [
+      [
+       37.3,
+       58.3,
+       55.9,
+       62.2
+      ]
+     ]
     },
     {
      "w": 3840,
@@ -729,13 +762,29 @@ window.PHOTO = {
      "w": 3840,
      "h": 5760,
      "s": "8ca54569-a133-4f41-b8b3-23f491a15f84_rw_1200.jpg?h=0ec32208f4b054ce6c1caa5ea69c54fc",
-     "l": "8ca54569-a133-4f41-b8b3-23f491a15f84_rw_1920.jpg?h=21d78a4ac7afbc4e806652a76d6cc8d7"
+     "l": "8ca54569-a133-4f41-b8b3-23f491a15f84_rw_1920.jpg?h=21d78a4ac7afbc4e806652a76d6cc8d7",
+     "blur": [
+      [
+       9.5,
+       54.2,
+       13.3,
+       56
+      ]
+     ]
     },
     {
      "w": 3840,
      "h": 5760,
      "s": "37d523bf-d0cb-48ac-96ab-ce9bdd39fbee_rw_1200.jpg?h=ae9e9015a1a18b6c930b7d7ca4b70aaa",
-     "l": "37d523bf-d0cb-48ac-96ab-ce9bdd39fbee_rw_1920.jpg?h=e30c38ea5bddc3eb1bd3283ebb2c7c77"
+     "l": "37d523bf-d0cb-48ac-96ab-ce9bdd39fbee_rw_1920.jpg?h=e30c38ea5bddc3eb1bd3283ebb2c7c77",
+     "blur": [
+      [
+       30.6,
+       59.9,
+       38.4,
+       63.2
+      ]
+     ]
     },
     {
      "w": 3840,

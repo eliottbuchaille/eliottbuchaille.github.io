@@ -209,3 +209,9 @@ a.ph{display:block}
 .lb-fig{cursor:zoom-out}
 .lb-media img{cursor:default}
 .bar a,.bar-cats a,.lang{white-space:nowrap}
+
+/* plaques floutées */
+.plate{position:absolute;z-index:2;border-radius:3px;pointer-events:none;background:rgba(120,120,120,.35);-webkit-backdrop-filter:blur(10px) saturate(.6);backdrop-filter:blur(10px) saturate(.6)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.plate{background:#8a8780}}
+.lb-wrap{position:relative;display:inline-block;line-height:0}
+.lb-wrap .plate{-webkit-backdrop-filter:blur(16px) saturate(.6);backdrop-filter:blur(16px) saturate(.6)}

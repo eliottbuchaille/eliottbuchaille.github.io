@@ -37,15 +37,22 @@
     var s = S.cdn + p.s, l = S.cdn + p.l;
     return { s: s, l: l, set: s + " 1200w, " + l + " 1920w" };
   }
+  // zones floutées (plaques d'immatriculation)
+  function blurs(p) {
+    return (p.blur || []).map(function (b) {
+      return '<span class="plate" aria-hidden="true" style="left:' + b[0] + "%;top:" + b[1] + "%;width:" + (b[2] - b[0]) + "%;height:" + (b[3] - b[1]) + '%"></span>';
+    }).join("");
+  }
   function ratio(p) { return p.w && p.h ? p.w + "/" + p.h : "3/2"; }
 
   // une image cliquable ; si crop est donné, elle remplit un cadre de ce format
   function frame(si, k, crop, sizes) {
     var s = SE[si], p = s.photos[k], u = urls(p);
+    if (p.blur) crop = null; // jamais recadrer une photo floutée : les zones restent alignées
     return '<a class="ph" href="' + esc(u.l) + '" data-s="' + si + '" data-k="' + k + '" style="aspect-ratio:' + (crop || ratio(p)) + '"' +
       ' aria-label="' + esc(t("enlarge") + " — " + L(s.title) + " " + pad(k + 1)) + '">' +
       '<img src="' + esc(u.s) + '"' + (u.set ? ' srcset="' + esc(u.set) + '" sizes="' + (sizes || "(max-width:700px) 100vw, 50vw") + '"' : "") +
-      ' alt="' + esc(L(s.title) + " — " + pad(k + 1)) + '" loading="lazy" decoding="async" onload="this.classList.add(\'loaded\')"></a>';
+      ' alt="' + esc(L(s.title) + " — " + pad(k + 1)) + '" loading="lazy" decoding="async" onload="this.classList.add(\'loaded\')">' + blurs(p) + "</a>";
   }
   function cap(k, extra) {
     return '<div class="cap mono"><span>' + pad(k + 1) + '</span><span class="c">' + (extra ? esc(extra) : "—") + "</span></div>";
@@ -191,7 +198,7 @@
     var s = SE[si], n = s.photos.length;
     cs = si; ck = (k + n) % n;
     var u = urls(s.photos[ck]);
-    media.innerHTML = '<img src="' + esc(u.l) + '" alt="' + esc(L(s.title) + " " + pad(ck + 1)) + '">';
+    media.innerHTML = '<span class="lb-wrap"><img src="' + esc(u.l) + '" alt="' + esc(L(s.title) + " " + pad(ck + 1)) + '">' + blurs(s.photos[ck]) + "</span>";
     lbCap.textContent = L(s.title) + " — " + pad(ck + 1) + " / " + pad(n);
     // précharge la suivante
     var nx = new Image(); nx.src = urls(s.photos[(ck + 1) % n]).l;
