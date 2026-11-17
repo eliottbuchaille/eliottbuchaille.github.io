@@ -42,21 +42,24 @@
 
   /* ======================= MARELLE ======================= */
   if (fx === 'marelle') {
-    const words = ['Deadline vendredi', 'Mail non lu', 'Réunion 9 h', 'Rendu APS', 'Partiel', 'Relance', 'Dossier à finir',
-      'Stage ?', '+12 notifications', 'Groupe projet', 'Loyer', 'Rappel', 'Charrette', 'Oral lundi', 'Planches', 'Impression',
-      'Retard', 'Appel manqué', 'À rendre', 'Encore un mail', 'Urgent', 'Jury', 'Corrections', 'Message vocal'];
+    // Moins de pensées, placées en bordure pour laisser respirer le titre (en bas à gauche).
+    const words = ['Deadline vendredi', 'Rendu APS', 'Mail non lu', 'Charrette', 'Oral lundi', 'Relance',
+      '+12 notifications', 'Jury', 'Planches', 'À rendre'];
+    const slotsWide = [[16, 14], [40, 9], [63, 14], [82, 24], [70, 40], [87, 53], [55, 28], [26, 33], [82, 68], [76, 86]];
+    const slotsSmall = [[6, 12], [52, 10], [28, 23], [60, 31], [10, 40], [48, 48]];
     const layer = document.querySelector('.fx-noise');
     const small = innerWidth < 760;
-    const spans = (small ? words.slice(0, 12) : words).map((w, i, list) => {
+    const slots = small ? slotsSmall : slotsWide;
+    const spans = words.slice(0, slots.length).map((w, i, list) => {
       const s = document.createElement('span');
       const kind = i % 3;
       s.textContent = w;
       s.className = kind === 0 ? 'pill' : kind === 1 ? 'serif' : '';
-      s.style.left = (4 + Math.random() * (small ? 60 : 82)) + '%';
-      s.style.top = (8 + Math.random() * 80) + '%';
-      s.style.fontSize = (small ? 12 + Math.random() * 12 : 14 + Math.random() * 26) + 'px';
+      s.style.left = (slots[i][0] + (Math.random() - .5) * 3) + '%';
+      s.style.top = (slots[i][1] + (Math.random() - .5) * 3) + '%';
+      s.style.fontSize = (small ? 12 + Math.random() * 8 : 14 + Math.random() * 16) + 'px';
       s.style.animationDelay = (-Math.random() * 7) + 's';
-      s.dataset.th = (0.02 + (i / list.length) * 0.26).toFixed(3);   // chaque pensée s'éteint à son tour
+      s.dataset.th = (0.06 + (i / list.length) * 0.45).toFixed(3);   // en fraction de hauteur d'écran : tout s'éteint avant la fin du premier écran
       layer.append(s);
       return s;
     });
@@ -70,8 +73,8 @@
       const sky = grad([[0, '#E4DCD0'], [.35, '#EFE8DD'], [1, '#F7F2EA']], p);
       setv(bg, '--fx-sky', sky); setv(body, '--fx-sky', sky);
       spans.forEach(s => {
-        const t = clamp((p - +s.dataset.th) / .05);
-        s.style.opacity = ((1 - t) * (s.classList.contains('pill') ? .95 : .5)).toFixed(3);
+        const t = clamp((scrollY / innerHeight - +s.dataset.th) / .12);
+        s.style.opacity = ((1 - t) * (s.classList.contains('pill') ? .9 : .4)).toFixed(3);
         s.style.filter = `blur(${(t * 8).toFixed(1)}px)`;
         s.style.transform = `translateY(${(-t * 40).toFixed(0)}px)`;
       });
