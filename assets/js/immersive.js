@@ -58,7 +58,7 @@
       s.style.top = (slots[i][1] + (Math.random() - .5) * 3) + '%';
       s.style.fontSize = (small ? 12 + Math.random() * 8 : 14 + Math.random() * 16) + 'px';
       s.style.animationDelay = (-Math.random() * 7) + 's';
-      s.dataset.th = (0.06 + (i / list.length) * 0.45).toFixed(3);   // en fraction de hauteur d'écran : tout s'éteint avant la fin du premier écran
+      s.dataset.th = (0.15 + (i / list.length) * 0.8).toFixed(3);   // en fraction de hauteur d'écran : tout s'éteint vers la fin du premier écran
       layer.append(s);
       return s;
     });
@@ -72,7 +72,7 @@
       const sky = grad([[0, '#E4DCD0'], [.35, '#EFE8DD'], [1, '#F7F2EA']], p);
       setv(bg, '--fx-sky', sky); setv(body, '--fx-sky', sky);
       spans.forEach(s => {
-        const t = clamp((scrollY / innerHeight - +s.dataset.th) / .12);
+        const t = clamp((scrollY / innerHeight - +s.dataset.th) / .18);
         s.style.opacity = ((1 - t) * .45).toFixed(3);
         s.style.filter = `blur(${(t * 8).toFixed(1)}px)`;
         s.style.transform = `translateY(${(-t * 40).toFixed(0)}px)`;
