@@ -278,7 +278,7 @@ a:hover .link-arrow .line::after, .link-arrow:hover .line::after { transform-ori
 .contact .wrap { position: relative; z-index: 2; }
 .contact .display { color: var(--cream); max-width: 12ch; }
 .contact .display em { color: var(--lin); }
-.contact-grid { margin-top: clamp(48px, 7vw, 90px); display: grid; grid-template-columns: 1.3fr .8fr 1.4fr; gap: 28px; border-top: 1px solid rgba(239,230,218,.25); padding-top: 28px; }
+.contact-grid { margin-top: clamp(48px, 7vw, 90px); display: grid; grid-template-columns: 1.7fr .8fr 1.2fr .8fr; gap: 28px; border-top: 1px solid rgba(239,230,218,.25); padding-top: 28px; }
 .contact-grid .k { font-size: 11.5px; letter-spacing: .26em; text-transform: uppercase; color: #d8d0c5; }
 @media (max-width: 1000px) { .contact-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .contact-grid { grid-template-columns: 1fr; } }
@@ -466,3 +466,8 @@ a:hover .link-arrow .line::after, .link-arrow:hover .line::after { transform-ori
 .award-txt .eyebrow { margin-bottom: 12px; }
 .award-txt .award-note { font-size: 13px; color: var(--mute); margin: 0; }
 @media (max-width: 760px) { .award { grid-template-columns: 1fr; } .award-rank { border-right: 0; border-bottom: 1px solid var(--line); padding: 0 0 18px; } }
+
+/* lien vers le portfolio photo */
+.nav-links a.ext { opacity: .7; }
+.nav-links a.ext:hover { opacity: 1; }
+.footer a { color: inherit; }

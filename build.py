@@ -79,6 +79,7 @@ def nav(p, current=''):
    {link(p + 'rendus.html', 'Rendus 3D', 'rendus')}
    {link(p + 'index.html#parcours', 'Parcours', 'parcours')}
    {link(p + 'index.html#contact', 'Contact', 'contact')}
+   <a class="ext" href="{p}photo/">Photographie ↗</a>
    <button class="theme-toggle" type="button" aria-label="Changer de thème (clair / sombre)">
     <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
     <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
@@ -93,7 +94,7 @@ def footer(p):
     return f'''<footer class="footer">
  <div class="wrap">
   <a class="brand" href="{p}index.html">{mono()}<span>Eliott Buchaille</span></a>
-  <span>Architecture intérieure · Lyon — Annecy — Suisse</span>
+  <span>Architecture intérieure · Lyon — Annecy — Suisse · <a href="{p}photo/">Photographie ↗</a></span>
   <span>© <span data-year></span> Eliott Buchaille · « Architecture is just art we live in »</span>
  </div>
 </footer>
@@ -113,6 +114,7 @@ def contact_block(p):
    <div class="reveal" style="--d:.15s"><div class="k">E-mail</div><a href="mailto:{c['email']}">{c['email']}</a></div>
    <div class="reveal" style="--d:.22s"><div class="k">Téléphone</div><a href="tel:{c['tel'].replace(' ', '')}">{c['tel']}</a></div>
    <div class="reveal" style="--d:.29s"><div class="k">Secteurs</div><span class="v">{e(c['zones'])}</span></div>
+   <div class="reveal" style="--d:.36s"><div class="k">Photographie</div><a href="{p}photo/">Le portfolio ↗</a></div>
   </div>
  </div>
 </section>
