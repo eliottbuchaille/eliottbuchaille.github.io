@@ -1,6 +1,8 @@
 # Photographie — Eliott Buchaille
 
-Site photo en ligne à l'adresse `/photo/` du portfolio. HTML, CSS et JS sans dépendance.
+Site photo en ligne à l'adresse `/photo/` du portfolio, en français et en anglais. HTML, CSS et JS sans dépendance.
+
+Les photos sont pour l'instant chargées depuis Adobe Portfolio (eliottraw.myportfolio.com).
 
 ## Ajouter des photos
 
