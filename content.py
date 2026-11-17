@@ -262,7 +262,6 @@ RENDERS = [
     {'img': 'r-bureau', 'cat': 'residentiel', 'alt': 'Bureau classique sous verrière', 'home': True},
     {'img': 'r-salle-de-bain', 'cat': 'residentiel', 'alt': 'Salle d’eau : lattes de bois et appliques globes'},
     {'img': 'r-villa-jungle', 'cat': 'exterieur', 'alt': 'Villa tropicale en porte-à-faux', 'home': True},
-    {'img': 'r-villa-hiver', 'cat': 'exterieur', 'alt': 'La même villa sous la neige'},
     {'img': 'r-villa-jungle-2', 'cat': 'exterieur', 'alt': 'Villa tropicale, vue d’arrivée'},
     {'img': 'r-chalet-ext-hiver', 'cat': 'exterieur', 'alt': 'Chalet alpin en hiver'},
     {'img': 'r-chalet-ext-printemps', 'cat': 'exterieur', 'alt': 'Chalet alpin au printemps'},
