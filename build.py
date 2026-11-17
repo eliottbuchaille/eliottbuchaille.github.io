@@ -67,6 +67,18 @@ d.setAttribute('data-theme',t);}})();
 <a class="sr-only" href="#contenu">Aller au contenu</a>
 '''
 
+import hashlib, re as _re
+def bust(html_):
+    """Ajoute ?v=<empreinte> aux CSS/JS du site pour que les navigateurs rechargent les fichiers modifiés."""
+    def rep(m):
+        path = os.path.join(ROOT, 'assets', m.group(2))
+        try:
+            v = hashlib.md5(open(path, 'rb').read()).hexdigest()[:8]
+        except OSError:
+            return m.group(0)
+        return f'{m.group(1)}assets/{m.group(2)}?v={v}"'
+    return _re.sub(r'(["/])assets/((?:css|js)/[\w.-]+\.(?:css|js))"', rep, html_)
+
 def nav(p, current=''):
     def link(href, label, key):
         cur = ' aria-current="page"' if key == current else ''
@@ -375,13 +387,13 @@ def build_rendus():
 
 if __name__ == '__main__':
     os.makedirs(os.path.join(ROOT, 'projets'), exist_ok=True)
-    open(os.path.join(ROOT, 'index.html'), 'w').write(build_index())
+    open(os.path.join(ROOT, 'index.html'), 'w').write(bust(build_index()))
     for i, pr in enumerate(PROJECTS):
         if pr.get('custom'):
             import sys, plongee_page
             html_ = plongee_page.build_plongee(i, sys.modules[__name__])
         else:
             html_ = build_project(i)
-        open(os.path.join(ROOT, 'projets', pr['slug'] + '.html'), 'w').write(html_)
-    open(os.path.join(ROOT, 'rendus.html'), 'w').write(build_rendus())
+        open(os.path.join(ROOT, 'projets', pr['slug'] + '.html'), 'w').write(bust(html_))
+    open(os.path.join(ROOT, 'rendus.html'), 'w').write(bust(build_rendus()))
     print('ok:', 2 + len(PROJECTS), 'pages')
