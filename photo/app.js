@@ -160,17 +160,24 @@
     onScroll();
   }
 
-  /* ---------- apparition ---------- */
-  var io = "IntersectionObserver" in window ? new IntersectionObserver(function (en) {
-    en.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
-  }, { rootMargin: "0px 0px -6% 0px" }) : null;
-  function observe() {
-    document.querySelectorAll(".reveal:not(.in)").forEach(function (el) { io ? io.observe(el) : el.classList.add("in"); });
+  /* ---------- apparition (sans IntersectionObserver, toujours fiable) ---------- */
+  document.documentElement.classList.add("js-reveal");
+  function reveal() {
+    var lim = window.innerHeight * 0.96;
+    document.querySelectorAll(".reveal:not(.in)").forEach(function (el) {
+      if (el.getBoundingClientRect().top < lim) el.classList.add("in");
+    });
   }
+  function observe() { reveal(); }
+  window.addEventListener("resize", reveal);
+  window.addEventListener("hashchange", function () { setTimeout(reveal, 50); setTimeout(reveal, 700); });
+  // filet de sécurité : tout s'affiche au bout de 2,5 s quoi qu'il arrive
+  setTimeout(function () { document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("in"); }); }, 2500);
 
   /* ---------- barre ---------- */
   var bar = $("bar");
   function onScroll() {
+    reveal();
     bar.classList.toggle("scrolled", window.scrollY > 10);
     var mid = window.innerHeight * 0.35, cur = null;
     document.querySelectorAll(".serie").forEach(function (s) { var r = s.getBoundingClientRect(); if (r.top < mid && r.bottom > mid) cur = s.id; });
@@ -215,6 +222,7 @@
       mo.querySelector(".lbl").textContent = openNow ? t("hide_all") : t("see_all");
       mo.querySelector(".arr").textContent = openNow ? "↑" : "↓";
       if (!openNow) document.getElementById(SE[si].id).scrollIntoView();
+      reveal();
       return;
     }
     var b = e.target.closest("[data-lb]");

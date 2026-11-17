@@ -380,7 +380,7 @@ window.PHOTO = {
    "layout": "wide",
    "featured": [
     11,
-    19,
+    18,
     16,
     4,
     23
