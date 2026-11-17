@@ -207,3 +207,4 @@ a.ph{display:block}
 .foot a:hover{color:var(--muted)}
 .lb-fig{cursor:zoom-out}
 .lb-media img{cursor:default}
+.bar a,.bar-cats a,.lang{white-space:nowrap}
