@@ -52,9 +52,8 @@
     const slots = small ? slotsSmall : slotsWide;
     const spans = words.slice(0, slots.length).map((w, i, list) => {
       const s = document.createElement('span');
-      const kind = i % 3;
       s.textContent = w;
-      s.className = kind === 0 ? 'pill' : kind === 1 ? 'serif' : '';
+      s.className = i % 2 ? 'serif' : '';
       s.style.left = (slots[i][0] + (Math.random() - .5) * 3) + '%';
       s.style.top = (slots[i][1] + (Math.random() - .5) * 3) + '%';
       s.style.fontSize = (small ? 12 + Math.random() * 8 : 14 + Math.random() * 16) + 'px';
@@ -74,7 +73,7 @@
       setv(bg, '--fx-sky', sky); setv(body, '--fx-sky', sky);
       spans.forEach(s => {
         const t = clamp((scrollY / innerHeight - +s.dataset.th) / .12);
-        s.style.opacity = ((1 - t) * (s.classList.contains('pill') ? .9 : .4)).toFixed(3);
+        s.style.opacity = ((1 - t) * .45).toFixed(3);
         s.style.filter = `blur(${(t * 8).toFixed(1)}px)`;
         s.style.transform = `translateY(${(-t * 40).toFixed(0)}px)`;
       });
