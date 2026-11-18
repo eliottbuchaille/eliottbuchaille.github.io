@@ -15,7 +15,7 @@ SITE = {
     'about': """
 <p>Je suis en 5<sup>e</sup> année d'architecture intérieure et design global à <strong>CREAD Lyon</strong>. J'aime les projets où tout se tient : un récit clair, un plan qui le sert et des détails dessinés jusqu'à la menuiserie.</p>
 <p>Mon mémoire de fin d'études porte sur <strong>l'expérience sensorielle</strong> et sur les technologies qui savent s'effacer dans l'espace. Cette question guide aussi mon regard sur l'hôtellerie et les lieux d'exception, vers lesquels j'oriente ma carrière.</p>
-<p>Sur le terrain, plusieurs stages m'ont appris le chantier, les relevés, le rendez-vous client et le mobilier sur mesure. Côté outils, je passe du plan technique au rendu photoréaliste, et j'explore les nouveaux usages de la 3D.</p>
+<p>Sur le terrain, plusieurs stages puis mon alternance chez Horus Design m'ont appris le chantier, les relevés, le rendez-vous client et le mobilier sur mesure. Côté outils, je passe du plan technique au rendu photoréaliste, et j'explore les nouveaux usages de la 3D.</p>
 """,
     'rendus_intro': """
 <p>Ces scènes sont des explorations personnelles. Je modélise les volumes, le mobilier et la lumière dans <strong>Blender</strong>, puis je finalise l'image avec un outil de rendu assisté par IA pour pousser les matières et l'atmosphère.</p>
@@ -43,6 +43,10 @@ SKILLS = [
 TIMELINE = [
     {'when': '2022 — 2027', 'title': "Architecture intérieure & design global", 'where': 'CREAD, Lyon',
      'text': "Titre RNCP de niveau 7. Projets tertiaires, ERP, patrimoine et urbanisme ; mémoire sur l'expérience sensorielle."},
+    {'when': 'Depuis juil. 2026', 'title': "Chargé de projet — alternance", 'where': 'Horus Design, Montpellier',
+     'text': "Transformation et optimisation d'ERP partout en France. Rendus 3D photoréalistes, plans et mobilier sur mesure, rendez-vous et suivi clients. AutoCAD, SketchUp, IA."},
+    {'when': 'Févr. — mars 2026', 'title': "Stage assistant architecte d'intérieur", 'where': 'Diegolivia, Quincieux',
+     'text': "Visuels 3D, conception de meubles sur mesure, rendez-vous clients et gestion de projet."},
     {'when': 'Mai — juin 2025', 'title': "Stage en agence d'architecture intérieure", 'where': 'LAR_chitect',
      'text': "Suivi de chantier et rendez-vous clients, relevés et métrés. InDesign, SketchUp, V-Ray, ArchiCAD, AutoCAD."},
     {'when': '2024 — 2025', 'title': 'Architecture intérieure & cuisiniste', 'where': 'Les Cuisines de Marines',
