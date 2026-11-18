@@ -151,12 +151,20 @@ def build_index():
 
 <section class="statement">
  <div class="wrap">
+  <div class="statement-grid">
+  <div class="statement-text">
   <p class="eyebrow reveal" style="margin-bottom:28px">Manifeste</p>
   <p data-words>{SITE['statement']}</p>
   <div class="meta">
    <div class="stat reveal"><b>{len(PROJECTS)}</b><span>projets présentés</span></div>
    <div class="stat reveal" style="--d:.1s"><b>5<sup style="font-size:.45em">e</sup></b><span>année · CREAD Lyon</span></div>
    <div class="stat reveal" style="--d:.2s"><b>RNCP 7</b><span>titre visé · 2027</span></div>
+  </div>
+  </div>
+  <figure class="portrait">
+   <div class="portrait-img reveal-img"><img src="{p}assets/img/portrait-1200.webp" srcset="{p}assets/img/portrait-600.webp 600w, {p}assets/img/portrait-1200.webp 896w" sizes="(max-width: 860px) 60vw, 26vw" width="896" height="1120" alt="Portrait d'Eliott Buchaille" loading="lazy" decoding="async"></div>
+   <figcaption class="reveal">Eliott Buchaille<span>Architecture intérieure</span></figcaption>
+  </figure>
   </div>
  </div>
 </section>

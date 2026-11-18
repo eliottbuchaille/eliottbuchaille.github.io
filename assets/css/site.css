@@ -196,6 +196,16 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .statement .w { color: var(--text); opacity: .16; transition: opacity .25s linear; }
 .statement .w.on { opacity: 1; }
+.statement-grid { display: grid; grid-template-columns: minmax(0, 1fr) clamp(220px, 26vw, 380px); gap: clamp(40px, 7vw, 120px); align-items: center; }
+.portrait { margin: 0; }
+.portrait-img { border-radius: 999px 999px 6px 6px; overflow: hidden; box-shadow: 0 30px 60px -30px rgba(0,0,0,.35); }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; filter: grayscale(1) contrast(1.04); }
+.portrait figcaption { margin-top: 18px; font-family: var(--serif); font-size: 19px; color: var(--text); text-align: center; }
+.portrait figcaption span { display: block; margin-top: 6px; font-family: var(--sans); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
+@media (max-width: 860px) {
+  .statement-grid { grid-template-columns: 1fr; }
+  .portrait { width: min(62vw, 300px); justify-self: center; order: -1; margin-bottom: 8px; }
+}
 .statement .meta { margin-top: 48px; display: flex; gap: clamp(24px, 6vw, 80px); flex-wrap: wrap; }
 .stat b { display: block; font-family: var(--serif); font-weight: 400; font-size: clamp(40px, 5vw, 64px); line-height: 1; }
 .stat span { font-size: 13px; color: var(--mute); letter-spacing: .04em; }
