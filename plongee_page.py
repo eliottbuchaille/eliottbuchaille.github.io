@@ -69,7 +69,7 @@ def build_plongee(i, b):
     S.append(f'''<main id="contenu">
 <section class="dv-hero">
  <div class="inner">
-  <div class="kick"><i></i>Boutique de plongée · Lyon 5e<i></i></div>
+  <div class="kick"><i></i>Boutique de plongée · Lyon 5e · 3e année · 2024<i></i></div>
   <h1 class="sr-only">Maison Isobathe</h1>
   {svg_inline('logo.svg', 'logo')}
   <p class="sub">Une boutique de plongée qui se visite comme une descente : du bleu clair de l'entrée jusqu'à l'abysse.</p>

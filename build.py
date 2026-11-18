@@ -173,7 +173,7 @@ def build_index():
         ratio = 'r-21-9' if wide else 'r-3-2'
         sizes = '100vw' if wide else '(max-width: 860px) 100vw, 66vw'
         tags = ''.join(f'<span>{e(t)}</span>' for t in pr['tags'])
-        info_inner = f'''<div><span class="work-num">{i + 1:02d}</span>
+        info_inner = f'''<div><span class="work-num">{i + 1:02d}<span class="work-year">{e(pr['year'])}</span></span>
       <h3><small>{e(pr['kicker'])}</small>{e(pr['title'])}</h3></div>
       <div><p>{e(pr['teaser'])}</p><div class="tags">{tags}</div>
       <span class="link-arrow"><span class="line">Découvrir le projet</span>{ARROW}</span></div>'''
@@ -328,7 +328,7 @@ def build_project(i):
 <section class="p-hero">
  <div class="hero-media">{img(p, pr['cover'], pr['cover_alt'], attrs=f'data-hero-parallax style="view-transition-name:p-{pr["slug"]}"', eager=True)}</div>
  <div class="hero-inner"><div class="wrap">
-  <div class="kicker"><i></i>{e(pr['kicker'])}</div>
+  <div class="kicker"><i></i>{e(pr['kicker'])} · {e(pr['year'])}</div>
   <h1>{e(pr['title'])}</h1>
   <p class="sub">{e(pr['subtitle'])}</p>
  </div></div>
