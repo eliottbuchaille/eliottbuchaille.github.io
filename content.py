@@ -246,7 +246,7 @@ PROJECTS = [
 },
 ]
 
-RENDER_CATS = [('chalet', 'Chalet'), ('midcentury', 'Mid-century'), ('neoclassique', 'Néo-classique'), ('erp', 'ERP'), ('residentiel', 'Résidentiel'), ('exterieur', 'Extérieurs')]
+RENDER_CATS = [('chalet', 'Chalet'), ('spa', 'Spa'), ('maison', 'Maison pierre'), ('midcentury', 'Mid-century'), ('neoclassique', 'Néo-classique'), ('erp', 'ERP'), ('residentiel', 'Résidentiel'), ('exterieur', 'Extérieurs')]
 
 RENDERS = [
     {'img': 'r-chalet-4', 'cat': 'chalet', 'alt': 'Chalet : chambre sous charpente et mur de pierre', 'home': True},
@@ -254,6 +254,17 @@ RENDERS = [
     {'img': 'r-chalet-3', 'cat': 'chalet', 'alt': 'Chalet : chambre et baie panoramique'},
     {'img': 'r-chalet-2', 'cat': 'chalet', 'alt': 'Chalet : chevet, lin et bois vieilli'},
     {'img': 'r-chalet-5', 'cat': 'chalet', 'alt': 'Chalet : tête de lit en pierre éclairée'},
+    {'img': 'r-spa-1', 'cat': 'spa', 'alt': 'Spa : bassin sombre sous un plafond ajouré', 'home': True},
+    {'img': 'r-spa-2', 'cat': 'spa', 'alt': 'Spa : mur d’onyx rétroéclairé et banc en bois brut'},
+    {'img': 'r-spa-3', 'cat': 'spa', 'alt': 'Spa : couloir en pierre et lumière rasante'},
+    {'img': 'r-spa-4', 'cat': 'spa', 'alt': 'Spa : salon de repos et paroi d’onyx'},
+    {'img': 'r-spa-5', 'cat': 'spa', 'alt': 'Spa : fauteuils bouclés et paroi lumineuse'},
+    {'img': 'r-spa-6', 'cat': 'spa', 'alt': 'Spa : sauna en bois derrière la verrière'},
+    {'img': 'r-maison-1', 'cat': 'maison', 'alt': 'Maison : brique claire, bardage bois et ardoise', 'home': True},
+    {'img': 'r-maison-2', 'cat': 'maison', 'alt': 'Maison : angle et lucarnes au crépuscule'},
+    {'img': 'r-maison-3', 'cat': 'maison', 'alt': 'Maison : grande lucarne en bois'},
+    {'img': 'r-maison-4', 'cat': 'maison', 'alt': 'Maison : porte d’entrée en chêne et appliques'},
+    {'img': 'r-maison-5', 'cat': 'maison', 'alt': 'Maison : fenêtre éclairée et hortensias'},
     {'img': 'r-midcentury-1', 'cat': 'midcentury', 'alt': 'Mid-century : séjour, tapis damier et parquet', 'home': True},
     {'img': 'r-midcentury-2', 'cat': 'midcentury', 'alt': 'Mid-century : table en noyer et suspensions'},
     {'img': 'r-midcentury-3', 'cat': 'midcentury', 'alt': 'Mid-century : enfilade et coin hi-fi'},
