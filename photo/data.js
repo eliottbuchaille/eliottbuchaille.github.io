@@ -608,25 +608,25 @@ window.PHOTO = {
     13,
     10,
     15,
-    20,
-    21
+    14,
+    18
    ],
    "title": {
     "fr": "Paysages & Nature",
     "en": "Landscapes & Nature"
    },
    "subtitle": {
-    "fr": "Montagne, lacs, faune, déserts",
-    "en": "Mountains, lakes, wildlife, deserts"
+    "fr": "Montagne, lacs, faune",
+    "en": "Mountains, lakes, wildlife"
    },
    "place": {
-    "fr": "Alpes · Ouest américain",
-    "en": "Alps · American West"
+    "fr": "Alpes",
+    "en": "Alps"
    },
    "year": "2025 — 2026",
    "text": {
-    "fr": "Le lac de Peyre entre la nuit et le lever du soleil, les bouquetins dans la pente, puis le lac Guichard, le cirque de Sixt-Fer-à-Cheval et les déserts de l'Ouest américain : la lumière rasante, l'échelle et le silence des grands espaces.",
-    "en": "Lac de Peyre from night to sunrise, ibex on the slopes, then Lac Guichard, the Sixt-Fer-à-Cheval cirque and the deserts of the American West: low light, scale and the silence of wide-open spaces."
+    "fr": "Le lac de Peyre entre la nuit et le lever du soleil, les bouquetins dans la pente, puis le lac Guichard et le cirque de Sixt-Fer-à-Cheval : la lumière rasante, l'échelle et le silence de la montagne.",
+    "en": "Lac de Peyre from night to sunrise, ibex on the slopes, then Lac Guichard and the Sixt-Fer-à-Cheval cirque: low light, scale and the silence of the mountains."
    },
    "photos": [
     {
@@ -818,78 +818,6 @@ window.PHOTO = {
       "fr": "Sixt-Fer-à-Cheval — septembre 2026",
       "en": "Sixt-Fer-à-Cheval — September 2026"
      }
-    },
-    {
-     "w": 3840,
-     "h": 2560,
-     "s": "4c45f9b4-8706-470a-9a55-5b75c4671c1c_rw_1200.jpg?h=a16f6ad89516fcbadd43c314e546c35a",
-     "l": "4c45f9b4-8706-470a-9a55-5b75c4671c1c_rw_1920.jpg?h=236cbace0b27185ed3108de65331290f",
-     "cap": {
-      "fr": "Monument Valley, Utah",
-      "en": "Monument Valley, Utah"
-     }
-    },
-    {
-     "w": 3840,
-     "h": 2560,
-     "s": "45dc1922-dec2-47c0-960d-1a6a3cec06e3_rw_1200.jpg?h=3e460e3cc61dd2501f643d7dc4a805ae",
-     "l": "45dc1922-dec2-47c0-960d-1a6a3cec06e3_rw_1920.jpg?h=9248d4d5f2b7587214dcb54db65dae50",
-     "cap": {
-      "fr": "Monument Valley, Utah",
-      "en": "Monument Valley, Utah"
-     }
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "aeb8807c-45a3-49b9-9e84-ddf47938ff4e_rw_1200.jpg?h=e6ca2caebaad86fee2d24e410b93fe78",
-     "l": "aeb8807c-45a3-49b9-9e84-ddf47938ff4e_rw_1920.jpg?h=ee5fe770730cdfdd00597d5af2ecd70c",
-     "cap": {
-      "fr": "Antelope Canyon, Arizona",
-      "en": "Antelope Canyon, Arizona"
-     }
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "755a9f3d-d64f-430b-ac04-2476c092d7da_rw_1200.jpg?h=c61aaad5d88bce2f15c53dd632ad84e7",
-     "l": "755a9f3d-d64f-430b-ac04-2476c092d7da_rw_1920.jpg?h=d5790a3a9ba5944ae3a7714783be50d0",
-     "cap": {
-      "fr": "Antelope Canyon, Arizona",
-      "en": "Antelope Canyon, Arizona"
-     }
-    },
-    {
-     "w": 1920,
-     "h": 2879,
-     "s": "12df6abb-a539-455d-8bfa-b7a7808d68b2_rw_1200.jpg?h=25b38bb4e93d771bdc64f22ab1f16efa",
-     "l": "12df6abb-a539-455d-8bfa-b7a7808d68b2_rw_1920.jpg?h=2501267bb7d32cf3d300d5975dd13588"
-    },
-    {
-     "w": 3840,
-     "h": 2560,
-     "s": "d2c43cf6-bfa8-4bec-b2c0-1502c8c1588e_rw_1200.jpg?h=8f612ca43d1abf1b10fcb3c296e5c877",
-     "l": "d2c43cf6-bfa8-4bec-b2c0-1502c8c1588e_rw_1920.jpg?h=e06930bf593e08983f31befddaf4019c",
-     "cap": {
-      "fr": "Ouest américain",
-      "en": "American West"
-     }
-    },
-    {
-     "w": 3840,
-     "h": 2560,
-     "s": "e3e9be9c-5cd6-4bb4-aebc-679bf46a3341_rw_1200.jpg?h=1c13a700f9c706f47a7dd77a049e583b",
-     "l": "e3e9be9c-5cd6-4bb4-aebc-679bf46a3341_rw_1920.jpg?h=14e67e5ee55b55f5cd6d9f821e1dd83f",
-     "cap": {
-      "fr": "Ouest américain",
-      "en": "American West"
-     }
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "d30c9825-6bf3-4c61-8433-89047cc73843_rw_1200.jpg?h=6cb9f3b6be06ddf114bd1c83d2284398",
-     "l": "d30c9825-6bf3-4c61-8433-89047cc73843_rw_1920.jpg?h=334a5047665ee91bf04e8a37a999d9e6"
     }
    ],
    "rows": [
@@ -910,24 +838,363 @@ window.PHOTO = {
      15
     ],
     [
-     20,
-     21
+     14,
+     18
     ]
    ]
   },
   {
-   "id": "street",
-   "layout": "register",
+   "id": "usa",
+   "layout": "rows",
+   "rows": [
+    [
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     9,
+     10
+    ]
+   ],
    "featured": [
+    0,
     1,
     2,
     3,
     4,
     5,
     6,
+    7,
+    8,
     9,
-    10,
-    11
+    10
+   ],
+   "photos": [
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/086.jpg",
+     "t": "img/usa/086-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/087.jpg",
+     "t": "img/usa/087-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/118.jpg",
+     "t": "img/usa/118-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/091.jpg",
+     "t": "img/usa/091-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/092.jpg",
+     "t": "img/usa/092-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/105.jpg",
+     "t": "img/usa/105-1200.jpg",
+     "cap": {
+      "fr": "Grand Canyon — août 2023",
+      "en": "Grand Canyon — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/098.jpg",
+     "t": "img/usa/098-1200.jpg",
+     "cap": {
+      "fr": "Bryce Canyon — août 2023",
+      "en": "Bryce Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/106.jpg",
+     "t": "img/usa/106-1200.jpg",
+     "cap": {
+      "fr": "Bryce Canyon — août 2023",
+      "en": "Bryce Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/134.jpg",
+     "t": "img/usa/134-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/135.jpg",
+     "t": "img/usa/135-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1920,
+     "h": 2400,
+     "src": "img/usa/117.jpg",
+     "t": "img/usa/117-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/074.jpg",
+     "t": "img/usa/074-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/080.jpg",
+     "t": "img/usa/080-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/085.jpg",
+     "t": "img/usa/085-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/075.jpg",
+     "t": "img/usa/075-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/089.jpg",
+     "t": "img/usa/089-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/095.jpg",
+     "t": "img/usa/095-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/116.jpg",
+     "t": "img/usa/116-1200.jpg",
+     "cap": {
+      "fr": "Grand Canyon — août 2023",
+      "en": "Grand Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/097.jpg",
+     "t": "img/usa/097-1200.jpg",
+     "cap": {
+      "fr": "Bryce Canyon — août 2023",
+      "en": "Bryce Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/112.jpg",
+     "t": "img/usa/112-1200.jpg",
+     "cap": {
+      "fr": "Yosemite — août 2023",
+      "en": "Yosemite — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/114.jpg",
+     "t": "img/usa/114-1200.jpg",
+     "cap": {
+      "fr": "Yosemite — août 2023",
+      "en": "Yosemite — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/109.jpg",
+     "t": "img/usa/109-1200.jpg",
+     "cap": {
+      "fr": "Yosemite — août 2023",
+      "en": "Yosemite — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/005.jpg",
+     "t": "img/usa/005-1200.jpg",
+     "cap": {
+      "fr": "Joshua Tree — août 2023",
+      "en": "Joshua Tree — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/003.jpg",
+     "t": "img/usa/003-1200.jpg",
+     "cap": {
+      "fr": "Joshua Tree — août 2023",
+      "en": "Joshua Tree — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/138.jpg",
+     "t": "img/usa/138-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/139.jpg",
+     "t": "img/usa/139-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/133.jpg",
+     "t": "img/usa/133-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1920,
+     "h": 2400,
+     "src": "img/usa/126.jpg",
+     "t": "img/usa/126-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    }
+   ],
+   "title": {
+    "fr": "Ouest américain",
+    "en": "American West"
+   },
+   "subtitle": {
+    "fr": "Parcs nationaux, déserts, Route 66",
+    "en": "National parks, deserts, Route 66"
+   },
+   "place": {
+    "fr": "Utah · Arizona · Californie",
+    "en": "Utah · Arizona · California"
+   },
+   "year": "2023",
+   "text": {
+    "fr": "Un road trip dans l'Ouest américain : Monument Valley au coucher du soleil, les parois d'Antelope Canyon, Bryce, le Grand Canyon, Yosemite, Joshua Tree et les stations-service de la Route 66. Photos de 2023, retouchées en 2026.",
+    "en": "A road trip through the American West: Monument Valley at sunset, the walls of Antelope Canyon, Bryce, the Grand Canyon, Yosemite, Joshua Tree and the gas stations of Route 66. Shot in 2023, re-edited in 2026."
+   }
+  },
+  {
+   "id": "street",
+   "layout": "register",
+   "featured": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
    ],
    "title": {
     "fr": "Street",
@@ -938,86 +1205,274 @@ window.PHOTO = {
     "en": "Street photography"
    },
    "place": {
-    "fr": "New York",
-    "en": "New York"
+    "fr": "New York · Los Angeles",
+    "en": "New York · Los Angeles"
    },
-   "year": "2026",
+   "year": "2023 — 2024",
    "text": {
-    "fr": "La ville en verticales : ponts, avenues, taxis et façades, entre lumière dure et ombres profondes.",
-    "en": "The city in verticals: bridges, avenues, cabs and façades, between hard light and deep shadow."
+    "fr": "New York en hiver et Los Angeles en plein été : ponts, avenues, taxis, façades et palmiers, entre lumière dure et ombres profondes.",
+    "en": "New York in winter and Los Angeles in high summer: bridges, avenues, cabs, façades and palm trees, between hard light and deep shadow."
    },
    "photos": [
     {
-     "w": 3840,
-     "h": 2560,
-     "s": "c3410767-17eb-4c8f-84eb-d9c65dfbae94_rw_1200.jpg?h=6620a3ce0af55ba36cf7a8b49b89ede9",
-     "l": "c3410767-17eb-4c8f-84eb-d9c65dfbae94_rw_1920.jpg?h=0d5850f5430cdb4581614ed5c0ab1d84"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/046.jpg",
+     "t": "img/street/046-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "50676684-19fd-4216-bfeb-ab04fed0cdc1_rw_1200.jpg?h=e009c00e9c523da03fe80e99dbf546d9",
-     "l": "50676684-19fd-4216-bfeb-ab04fed0cdc1_rw_1920.jpg?h=d5887aa4a40587f51b736a27b0e97a1c"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/043.jpg",
+     "t": "img/street/043-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "8923f347-a6d3-438a-b0a6-646371ff1f99_rw_1200.jpg?h=8e3c9af2bd887d8f895cfb5fe4cb24f2",
-     "l": "8923f347-a6d3-438a-b0a6-646371ff1f99_rw_1920.jpg?h=56fd820c25db7add59f4b69d4db4dd22"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/039.jpg",
+     "t": "img/street/039-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "0f5e01e2-374f-4853-813b-b3d18bfcc6cc_rw_1200.jpg?h=83830bf354ff808346bc28c4c8a1aca9",
-     "l": "0f5e01e2-374f-4853-813b-b3d18bfcc6cc_rw_1920.jpg?h=958bee2374c454089560400986ac5d91"
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/054.jpg",
+     "t": "img/street/054-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "20e0c632-f476-4eb3-87f2-5e79bcf99030_rw_1200.jpg?h=a32ceedbe34d999b78a5a553070cd9a3",
-     "l": "20e0c632-f476-4eb3-87f2-5e79bcf99030_rw_1920.jpg?h=a20f5b04fdd48becdb75bf296b82c365"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/027.jpg",
+     "t": "img/street/027-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "b2030efd-821c-4765-aa67-64b80a76c254_rw_1200.jpg?h=efb2d6e0bfb73f148832479f8210717e",
-     "l": "b2030efd-821c-4765-aa67-64b80a76c254_rw_1920.jpg?h=044009eff7922fcc2016c2d678efb43b"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/063.jpg",
+     "t": "img/street/063-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "823b0cde-d745-42e5-84e4-3d674b368187_rw_1200.jpg?h=09af28cebc7ca87a6c241362267d1102",
-     "l": "823b0cde-d745-42e5-84e4-3d674b368187_rw_1920.jpg?h=486770b442629730e4a022330a90bafc"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/037.jpg",
+     "t": "img/street/037-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 2560,
-     "s": "ff81aa27-c76b-494d-b80c-f76aee5d0020_rw_1200.jpg?h=39eceb9145c8927e89a2ad99f9c6b5cc",
-     "l": "ff81aa27-c76b-494d-b80c-f76aee5d0020_rw_1920.jpg?h=cadf0f0c960bdfcfe68966e26cb4ff58"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/008.jpg",
+     "t": "img/street/008-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
     },
     {
      "w": 1920,
-     "h": 2880,
-     "s": "f9cec31f-56bc-4b82-804a-e3b4209b9134_rw_1200.jpg?h=e9b919a27c526e8fa6657eaa61abea81",
-     "l": "f9cec31f-56bc-4b82-804a-e3b4209b9134_rw_1920.jpg?h=e16b876805f4a3c325c2c10b15deae29"
+     "h": 2400,
+     "src": "img/street/010.jpg",
+     "t": "img/street/010-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "84ff85bb-84a1-4c6f-b232-09aeca628bff_rw_1200.jpg?h=0043e74158eeac5fc1b1fbd103d928e6",
-     "l": "84ff85bb-84a1-4c6f-b232-09aeca628bff_rw_1920.jpg?h=0b60a45254df4c4c7f86ea2ca8dc187c"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/050.jpg",
+     "t": "img/street/050-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 1920,
-     "h": 2880,
-     "s": "bcdcf836-6c3e-47c9-8bb0-3b3b0002df67_rw_1200.jpg?h=02cd04924df64fdc2565e13b0be4c29f",
-     "l": "bcdcf836-6c3e-47c9-8bb0-3b3b0002df67_rw_1920.jpg?h=669e7aada9df056afe33e03ea1a113af"
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/051.jpg",
+     "t": "img/street/051-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "8068b782-1742-41b8-b7b6-f867ae26f3b6_rw_1200.jpg?h=8b5b29719e26529657f834e05d832bd1",
-     "l": "8068b782-1742-41b8-b7b6-f867ae26f3b6_rw_1920.jpg?h=f39cc8d97b0d8a17a8ba36945ce7c149"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/049.jpg",
+     "t": "img/street/049-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/048.jpg",
+     "t": "img/street/048-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/064.jpg",
+     "t": "img/street/064-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/065.jpg",
+     "t": "img/street/065-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/066.jpg",
+     "t": "img/street/066-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/021.jpg",
+     "t": "img/street/021-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/026.jpg",
+     "t": "img/street/026-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/031.jpg",
+     "t": "img/street/031-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/034.jpg",
+     "t": "img/street/034-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/028.jpg",
+     "t": "img/street/028-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/055.jpg",
+     "t": "img/street/055-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/045.jpg",
+     "t": "img/street/045-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/061.jpg",
+     "t": "img/street/061-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/018.jpg",
+     "t": "img/street/018-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/007.jpg",
+     "t": "img/street/007-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
     }
    ]
   },
@@ -1118,38 +1573,34 @@ window.PHOTO = {
      "l": "6f4de216-3da6-4273-a679-353eac7ca94b_rw_1920.jpg?h=43eeddfba6e150230d31581ec83b2aa0"
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "8ca54569-a133-4f41-b8b3-23f491a15f84_rw_1200.jpg?h=0ec32208f4b054ce6c1caa5ea69c54fc",
-     "l": "8ca54569-a133-4f41-b8b3-23f491a15f84_rw_1920.jpg?h=21d78a4ac7afbc4e806652a76d6cc8d7",
-     "blur": [
-      [
-       9.5,
-       54.2,
-       13.3,
-       56
-      ]
-     ]
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/017.jpg",
+     "t": "img/auto/017-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "37d523bf-d0cb-48ac-96ab-ce9bdd39fbee_rw_1200.jpg?h=ae9e9015a1a18b6c930b7d7ca4b70aaa",
-     "l": "37d523bf-d0cb-48ac-96ab-ce9bdd39fbee_rw_1920.jpg?h=e30c38ea5bddc3eb1bd3283ebb2c7c77",
-     "blur": [
-      [
-       30.6,
-       59.9,
-       38.4,
-       63.2
-      ]
-     ]
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/013.jpg",
+     "t": "img/auto/013-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
     },
     {
-     "w": 3840,
-     "h": 5760,
-     "s": "64d02800-89e1-4586-a24b-ea73cda2453d_rw_1200.jpg?h=e2c912bc2533080b23e39c1acd20d387",
-     "l": "64d02800-89e1-4586-a24b-ea73cda2453d_rw_1920.jpg?h=af727c4aeaec2ab7acdf3a76b4a5116a"
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/014.jpg",
+     "t": "img/auto/014-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
     }
    ]
   },
