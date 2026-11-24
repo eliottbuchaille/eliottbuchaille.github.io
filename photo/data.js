@@ -21,7 +21,7 @@ window.PHOTO = {
   "archive": "EB-PH-26",
   "cdn": "https://cdn.myportfolio.com/55894a5c-4c80-43e3-87c8-5f0e66777d8e/",
   "hero": {
-   "series": "astro",
+   "series": "landscapes",
    "index": 0
   },
   "email": "eliottbuchaille@gmail.com",
@@ -1611,47 +1611,198 @@ window.PHOTO = {
    "id": "automotive",
    "layout": "rows",
    "featured": [
-    12,
     0,
     1,
     2,
-    4,
-    7,
     3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
     13,
     14,
     15,
+    16,
     17,
     18,
-    26,
-    27,
-    28,
-    33,
-    30,
-    35,
-    38,
-    47,
-    48,
-    31
+    19,
+    20,
+    21,
+    22
    ],
    "title": {
     "fr": "Automobile",
     "en": "Automotive"
    },
    "subtitle": {
-    "fr": "Rallye, salons, voitures de collection",
-    "en": "Rallying, motor shows, classic cars"
+    "fr": "Salons, rallye, voitures de collection",
+    "en": "Motor shows, rallying, classic cars"
    },
    "place": {
-    "fr": "Monte-Carlo · Charbonnières · Mont-Blanc · Lyon · Los Angeles",
-    "en": "Monte-Carlo · Charbonnières · Mont-Blanc · Lyon · Los Angeles"
+    "fr": "Lyon · Monte-Carlo · Charbonnières · Mont-Blanc · Los Angeles",
+    "en": "Lyon · Monte-Carlo · Charbonnières · Mont-Blanc · Los Angeles"
    },
    "year": "2023 — 2026",
    "text": {
-    "fr": "Le Rallye Monte-Carlo à la tombée de la nuit, les spéciales de Charbonnières et du Mont-Blanc, les salons Epoq'auto à Lyon et quelques belles rencontres dans les rues de Los Angeles.",
-    "en": "The Monte-Carlo Rally at nightfall, the stages of Charbonnières and Mont-Blanc, the Epoq'auto shows in Lyon and a few great finds in the streets of Los Angeles."
+    "fr": "Les salons Epoq'auto à Lyon (Porsche 917 Gulf, Mazda 787B, Williams F1, Skyline), puis le Rallye Monte-Carlo à la tombée de la nuit, les spéciales de Charbonnières et du Mont-Blanc, et quelques rencontres dans les rues de Los Angeles.",
+    "en": "The Epoq'auto shows in Lyon (Porsche 917 Gulf, Mazda 787B, Williams F1, Skyline), then the Monte-Carlo Rally at nightfall, the stages of Charbonnières and Mont-Blanc, and a few finds in the streets of Los Angeles."
    },
    "photos": [
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r049.jpg",
+     "t": "img/auto/r049-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r051.jpg",
+     "t": "img/auto/r051-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r018.jpg",
+     "t": "img/auto/r018-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r045.jpg",
+     "t": "img/auto/r045-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r012.jpg",
+     "t": "img/auto/r012-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1350,
+     "h": 2400,
+     "src": "img/auto/r048.jpg",
+     "t": "img/auto/r048-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r006.jpg",
+     "t": "img/auto/r006-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r043.jpg",
+     "t": "img/auto/r043-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r042.jpg",
+     "t": "img/auto/r042-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r019.jpg",
+     "t": "img/auto/r019-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r022.jpg",
+     "t": "img/auto/r022-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r052.jpg",
+     "t": "img/auto/r052-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1800,
+     "src": "img/auto/r028.jpg",
+     "t": "img/auto/r028-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r031.jpg",
+     "t": "img/auto/r031-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1800,
+     "src": "img/auto/r181.jpg",
+     "t": "img/auto/r181-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
     {
      "w": 1800,
      "h": 2400,
@@ -1685,8 +1836,8 @@ window.PHOTO = {
     {
      "w": 1800,
      "h": 2400,
-     "src": "img/auto/r255.jpg",
-     "t": "img/auto/r255-1200.jpg",
+     "src": "img/auto/r261.jpg",
+     "t": "img/auto/r261-1200.jpg",
      "cap": {
       "fr": "Rallye Monte-Carlo — janvier 2025",
       "en": "Monte-Carlo Rally — January 2025"
@@ -1695,11 +1846,71 @@ window.PHOTO = {
     {
      "w": 1800,
      "h": 2400,
-     "src": "img/auto/r261.jpg",
-     "t": "img/auto/r261-1200.jpg",
+     "src": "img/auto/r267.jpg",
+     "t": "img/auto/r267-1200.jpg",
      "cap": {
       "fr": "Rallye Monte-Carlo — janvier 2025",
       "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r255.jpg",
+     "t": "img/auto/r255-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1844,
+     "src": "img/auto/r214.jpg",
+     "t": "img/auto/r214-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1800,
+     "src": "img/auto/r185.jpg",
+     "t": "img/auto/r185-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r029.jpg",
+     "t": "img/auto/r029-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r047.jpg",
+     "t": "img/auto/r047-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r010.jpg",
+     "t": "img/auto/r010-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
      }
     },
     {
@@ -1717,16 +1928,6 @@ window.PHOTO = {
      "h": 2400,
      "src": "img/auto/r266.jpg",
      "t": "img/auto/r266-1200.jpg",
-     "cap": {
-      "fr": "Rallye Monte-Carlo — janvier 2025",
-      "en": "Monte-Carlo Rally — January 2025"
-     }
-    },
-    {
-     "w": 1800,
-     "h": 2400,
-     "src": "img/auto/r267.jpg",
-     "t": "img/auto/r267-1200.jpg",
      "cap": {
       "fr": "Rallye Monte-Carlo — janvier 2025",
       "en": "Monte-Carlo Rally — January 2025"
@@ -1767,36 +1968,6 @@ window.PHOTO = {
      "h": 2400,
      "src": "img/auto/r170.jpg",
      "t": "img/auto/r170-1200.jpg",
-     "cap": {
-      "fr": "Rallye Monte-Carlo — janvier 2025",
-      "en": "Monte-Carlo Rally — January 2025"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1800,
-     "src": "img/auto/r181.jpg",
-     "t": "img/auto/r181-1200.jpg",
-     "cap": {
-      "fr": "Rallye Monte-Carlo — janvier 2025",
-      "en": "Monte-Carlo Rally — January 2025"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1844,
-     "src": "img/auto/r214.jpg",
-     "t": "img/auto/r214-1200.jpg",
-     "cap": {
-      "fr": "Rallye Monte-Carlo — janvier 2025",
-      "en": "Monte-Carlo Rally — January 2025"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1800,
-     "src": "img/auto/r185.jpg",
-     "t": "img/auto/r185-1200.jpg",
      "cap": {
       "fr": "Rallye Monte-Carlo — janvier 2025",
       "en": "Monte-Carlo Rally — January 2025"
@@ -1953,176 +2124,6 @@ window.PHOTO = {
      }
     },
     {
-     "w": 2400,
-     "h": 1800,
-     "src": "img/auto/r028.jpg",
-     "t": "img/auto/r028-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/auto/r029.jpg",
-     "t": "img/auto/r029-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/auto/r031.jpg",
-     "t": "img/auto/r031-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/auto/r042.jpg",
-     "t": "img/auto/r042-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r043.jpg",
-     "t": "img/auto/r043-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r045.jpg",
-     "t": "img/auto/r045-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 1350,
-     "h": 2400,
-     "src": "img/auto/r048.jpg",
-     "t": "img/auto/r048-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/auto/r049.jpg",
-     "t": "img/auto/r049-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 1800,
-     "h": 2400,
-     "src": "img/auto/r051.jpg",
-     "t": "img/auto/r051-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r052.jpg",
-     "t": "img/auto/r052-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r047.jpg",
-     "t": "img/auto/r047-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2026",
-      "en": "Epoq'auto, Lyon — November 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r006.jpg",
-     "t": "img/auto/r006-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2024",
-      "en": "Epoq'auto, Lyon — November 2024"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/auto/r012.jpg",
-     "t": "img/auto/r012-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2024",
-      "en": "Epoq'auto, Lyon — November 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r018.jpg",
-     "t": "img/auto/r018-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2024",
-      "en": "Epoq'auto, Lyon — November 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r019.jpg",
-     "t": "img/auto/r019-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2024",
-      "en": "Epoq'auto, Lyon — November 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r022.jpg",
-     "t": "img/auto/r022-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2024",
-      "en": "Epoq'auto, Lyon — November 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/r010.jpg",
-     "t": "img/auto/r010-1200.jpg",
-     "cap": {
-      "fr": "Epoq'auto, Lyon — novembre 2024",
-      "en": "Epoq'auto, Lyon — November 2024"
-     }
-    },
-    {
      "w": 1600,
      "h": 2400,
      "src": "img/auto/017.jpg",
@@ -2156,44 +2157,49 @@ window.PHOTO = {
    "dark": true,
    "rows": [
     [
-     12
+     0
     ],
     [
-     0,
      1,
-     2
-    ],
-    [
-     4,
-     7,
+     2,
      3
     ],
     [
-     13,
+     4
+    ],
+    [
+     5,
+     6,
+     7
+    ],
+    [
+     8
+    ],
+    [
+     9,
+     10,
+     11
+    ],
+    [
+     12,
+     13
+    ],
+    [
      14
     ],
     [
      15,
-     17,
-     18
+     16,
+     17
     ],
     [
-     26,
-     27,
-     28
+     18,
+     19,
+     20
     ],
     [
-     33
-    ],
-    [
-     30,
-     35,
-     38
-    ],
-    [
-     47,
-     48,
-     31
+     21,
+     22
     ]
    ]
   },
