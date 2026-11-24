@@ -26,12 +26,12 @@ window.PHOTO = {
   },
   "email": "eliottbuchaille@gmail.com",
   "disciplines": {
-   "fr": "Astro · Paysage · Street · Mariage · Automobile · Aérien",
-   "en": "Astro · Landscape · Street · Weddings · Automotive · Aerial"
+   "fr": "Astro · Paysage · Voyage · Street · Automobile · Mariage",
+   "en": "Astro · Landscape · Travel · Street · Automotive · Weddings"
   },
   "intro": {
-   "fr": "Photographe français basé à Lyon. Astrophotographie, paysages, mariages, rue, automobile et vues aériennes.",
-   "en": "French photographer based in Lyon. Astrophotography, landscapes, weddings, street, automotive and aerial photography."
+   "fr": "Photographe français basé à Lyon. Astrophotographie, paysages, voyages, rue, automobile et mariages.",
+   "en": "French photographer based in Lyon. Astrophotography, landscapes, travel, street, automotive and weddings."
   },
   "about": {
    "fr": [
@@ -68,14 +68,14 @@ window.PHOTO = {
     [
      6,
      5,
-     11
+     9
     ],
     [
      7
     ],
     [
-     13,
-     14
+     10,
+     11
     ]
    ],
    "featured": [
@@ -85,10 +85,10 @@ window.PHOTO = {
     3,
     6,
     5,
-    11,
+    9,
     7,
-    13,
-    14
+    10,
+    11
    ],
    "title": {
     "fr": "Astrophotographie",
@@ -99,13 +99,13 @@ window.PHOTO = {
     "en": "Milky Way, Moon, deep sky"
    },
    "place": {
-    "fr": "Alpes · Ouest américain",
-    "en": "Alps · American West"
+    "fr": "Alpes",
+    "en": "Alps"
    },
    "year": "2024 — 2026",
    "text": {
-    "fr": "Des nuits en altitude, du col de l'Iseran au lac de Peyre et au lac Guichard, jusqu'aux déserts de l'Utah : la Voie lactée au-dessus des reliefs, des dizaines de poses empilées et des panoramas assemblés image par image.",
-    "en": "Nights at altitude, from the Col de l'Iseran to Lac de Peyre and Lac Guichard, all the way to the deserts of Utah: the Milky Way above the peaks, dozens of stacked exposures and panoramas stitched frame by frame."
+    "fr": "Des nuits en altitude, du col de l'Iseran au lac de Peyre, du lac Guichard au Grand Colombier : la Voie lactée au-dessus des reliefs, des dizaines de poses empilées et des panoramas assemblés image par image.",
+    "en": "Nights at altitude, from the Col de l'Iseran to Lac de Peyre, from Lac Guichard to the Grand Colombier: the Milky Way above the peaks, dozens of stacked exposures and panoramas stitched frame by frame."
    },
    "photos": [
     {
@@ -209,36 +209,6 @@ window.PHOTO = {
      }
     },
     {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/astro/07-usa-rocher.jpg",
-     "t": "img/astro/07-usa-rocher-1200.jpg",
-     "cap": {
-      "fr": "Ouest américain",
-      "en": "American West"
-     }
-    },
-    {
-     "w": 1920,
-     "h": 2400,
-     "src": "img/astro/08-usa-rocher-vertical.jpg",
-     "t": "img/astro/08-usa-rocher-vertical-1200.jpg",
-     "cap": {
-      "fr": "Ouest américain",
-      "en": "American West"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/astro/09-usa-hat-rock.jpg",
-     "t": "img/astro/09-usa-hat-rock-1200.jpg",
-     "cap": {
-      "fr": "Hat Rock, Utah",
-      "en": "Hat Rock, Utah"
-     }
-    },
-    {
      "w": 1350,
      "h": 2400,
      "src": "img/astro/11-orion-glieres.jpg",
@@ -270,6 +240,1962 @@ window.PHOTO = {
     }
    ],
    "dark": true
+  },
+  {
+   "id": "landscapes",
+   "layout": "rows",
+   "featured": [
+    0,
+    4,
+    1,
+    8,
+    7,
+    13,
+    19,
+    20,
+    10,
+    15,
+    21,
+    22
+   ],
+   "title": {
+    "fr": "Paysages & Nature",
+    "en": "Landscapes & Nature"
+   },
+   "subtitle": {
+    "fr": "Montagne, lacs, faune",
+    "en": "Mountains, lakes, wildlife"
+   },
+   "place": {
+    "fr": "Alpes",
+    "en": "Alps"
+   },
+   "year": "2025 — 2026",
+   "text": {
+    "fr": "Le lac de Peyre entre la nuit et le lever du soleil, les bouquetins dans la pente, le lac Guichard, le cirque de Sixt-Fer-à-Cheval et le lac d'Annecy en hiver : la lumière rasante, l'échelle et le silence de la montagne.",
+    "en": "Lac de Peyre from night to sunrise, ibex on the slopes, Lac Guichard, the Sixt-Fer-à-Cheval cirque and Lake Annecy in winter: low light, scale and the silence of the mountains."
+   },
+   "photos": [
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-silhouette.jpg",
+     "t": "img/paysages/peyre-silhouette-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-cretes.jpg",
+     "t": "img/paysages/peyre-cretes-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-lumiere.jpg",
+     "t": "img/paysages/peyre-lumiere-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/peyre-gorge.jpg",
+     "t": "img/paysages/peyre-gorge-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-aube-rose.jpg",
+     "t": "img/paysages/peyre-aube-rose-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-vallee.jpg",
+     "t": "img/paysages/peyre-vallee-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-ombre.jpg",
+     "t": "img/paysages/peyre-ombre-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/peyre-bouquetin-nb.jpg",
+     "t": "img/paysages/peyre-bouquetin-nb-1200.jpg",
+     "cap": {
+      "fr": "Bouquetin — lac de Peyre, juillet 2026",
+      "en": "Ibex — Lac de Peyre, July 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/peyre-bouquetin.jpg",
+     "t": "img/paysages/peyre-bouquetin-1200.jpg",
+     "cap": {
+      "fr": "Bouquetin — lac de Peyre, juillet 2026",
+      "en": "Ibex — Lac de Peyre, July 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/peyre-bouquetin-fleurs.jpg",
+     "t": "img/paysages/peyre-bouquetin-fleurs-1200.jpg",
+     "cap": {
+      "fr": "Bouquetin — lac de Peyre, juillet 2026",
+      "en": "Ibex — Lac de Peyre, July 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-bouquetins-soleil.jpg",
+     "t": "img/paysages/peyre-bouquetins-soleil-1200.jpg",
+     "cap": {
+      "fr": "Bouquetins — lac de Peyre, juillet 2026",
+      "en": "Ibex — Lac de Peyre, July 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/peyre-tente.jpg",
+     "t": "img/paysages/peyre-tente-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 1350,
+     "h": 2400,
+     "src": "img/paysages/peyre-nb.jpg",
+     "t": "img/paysages/peyre-nb-1200.jpg",
+     "cap": {
+      "fr": "Lac de Peyre — juillet 2026",
+      "en": "Lac de Peyre — July 2026"
+     }
+    },
+    {
+     "w": 1280,
+     "h": 1920,
+     "src": "img/paysages/guichard-reflet-jour.jpg",
+     "t": "img/paysages/guichard-reflet-jour-1200.jpg",
+     "cap": {
+      "fr": "Lac Guichard — août 2026",
+      "en": "Lac Guichard — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/paysages/sixt-cirque.jpg",
+     "t": "img/paysages/sixt-cirque-1200.jpg",
+     "cap": {
+      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
+      "en": "Sixt-Fer-à-Cheval — September 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/sixt-vallee.jpg",
+     "t": "img/paysages/sixt-vallee-1200.jpg",
+     "cap": {
+      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
+      "en": "Sixt-Fer-à-Cheval — September 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/sixt-cascade.jpg",
+     "t": "img/paysages/sixt-cascade-1200.jpg",
+     "cap": {
+      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
+      "en": "Sixt-Fer-à-Cheval — September 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/sixt-prairie.jpg",
+     "t": "img/paysages/sixt-prairie-1200.jpg",
+     "cap": {
+      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
+      "en": "Sixt-Fer-à-Cheval — September 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/paysages/sixt-falaises.jpg",
+     "t": "img/paysages/sixt-falaises-1200.jpg",
+     "cap": {
+      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
+      "en": "Sixt-Fer-à-Cheval — September 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v161.jpg",
+     "t": "img/voyages/v161-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v164.jpg",
+     "t": "img/voyages/v164-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v171.jpg",
+     "t": "img/voyages/v171-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v172.jpg",
+     "t": "img/voyages/v172-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v163.jpg",
+     "t": "img/voyages/v163-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v177.jpg",
+     "t": "img/voyages/v177-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v182.jpg",
+     "t": "img/voyages/v182-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v184.jpg",
+     "t": "img/voyages/v184-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    }
+   ],
+   "rows": [
+    [
+     0
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     8,
+     7,
+     13
+    ],
+    [
+     19,
+     20
+    ],
+    [
+     10,
+     15
+    ],
+    [
+     21,
+     22
+    ]
+   ]
+  },
+  {
+   "id": "voyages",
+   "layout": "rows",
+   "photos": [
+    {
+     "w": 1589,
+     "h": 2400,
+     "src": "img/voyages/v137.jpg",
+     "t": "img/voyages/v137-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v126.jpg",
+     "t": "img/voyages/v126-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v127.jpg",
+     "t": "img/voyages/v127-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v139.jpg",
+     "t": "img/voyages/v139-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v142.jpg",
+     "t": "img/voyages/v142-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v144.jpg",
+     "t": "img/voyages/v144-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v146.jpg",
+     "t": "img/voyages/v146-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v148.jpg",
+     "t": "img/voyages/v148-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v157.jpg",
+     "t": "img/voyages/v157-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v120.jpg",
+     "t": "img/voyages/v120-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v122.jpg",
+     "t": "img/voyages/v122-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v134.jpg",
+     "t": "img/voyages/v134-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v091.jpg",
+     "t": "img/voyages/v091-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v083.jpg",
+     "t": "img/voyages/v083-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v102.jpg",
+     "t": "img/voyages/v102-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v117.jpg",
+     "t": "img/voyages/v117-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1392,
+     "h": 2400,
+     "src": "img/voyages/v115.jpg",
+     "t": "img/voyages/v115-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v214.jpg",
+     "t": "img/voyages/v214-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v219.jpg",
+     "t": "img/voyages/v219-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v213.jpg",
+     "t": "img/voyages/v213-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v218.jpg",
+     "t": "img/voyages/v218-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v227.jpg",
+     "t": "img/voyages/v227-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v225.jpg",
+     "t": "img/voyages/v225-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v232.jpg",
+     "t": "img/voyages/v232-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v235.jpg",
+     "t": "img/voyages/v235-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v482.jpg",
+     "t": "img/voyages/v482-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v493.jpg",
+     "t": "img/voyages/v493-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v501.jpg",
+     "t": "img/voyages/v501-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v499.jpg",
+     "t": "img/voyages/v499-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/086.jpg",
+     "t": "img/usa/086-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/087.jpg",
+     "t": "img/usa/087-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/118.jpg",
+     "t": "img/usa/118-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/091.jpg",
+     "t": "img/usa/091-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/092.jpg",
+     "t": "img/usa/092-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/105.jpg",
+     "t": "img/usa/105-1200.jpg",
+     "cap": {
+      "fr": "Grand Canyon — août 2023",
+      "en": "Grand Canyon — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/098.jpg",
+     "t": "img/usa/098-1200.jpg",
+     "cap": {
+      "fr": "Bryce Canyon — août 2023",
+      "en": "Bryce Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/106.jpg",
+     "t": "img/usa/106-1200.jpg",
+     "cap": {
+      "fr": "Bryce Canyon — août 2023",
+      "en": "Bryce Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/134.jpg",
+     "t": "img/usa/134-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/135.jpg",
+     "t": "img/usa/135-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1920,
+     "h": 2400,
+     "src": "img/usa/117.jpg",
+     "t": "img/usa/117-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/074.jpg",
+     "t": "img/usa/074-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/080.jpg",
+     "t": "img/usa/080-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/085.jpg",
+     "t": "img/usa/085-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/075.jpg",
+     "t": "img/usa/075-1200.jpg",
+     "cap": {
+      "fr": "Monument Valley — août 2023",
+      "en": "Monument Valley — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/089.jpg",
+     "t": "img/usa/089-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/095.jpg",
+     "t": "img/usa/095-1200.jpg",
+     "cap": {
+      "fr": "Antelope Canyon — août 2023",
+      "en": "Antelope Canyon — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/116.jpg",
+     "t": "img/usa/116-1200.jpg",
+     "cap": {
+      "fr": "Grand Canyon — août 2023",
+      "en": "Grand Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/097.jpg",
+     "t": "img/usa/097-1200.jpg",
+     "cap": {
+      "fr": "Bryce Canyon — août 2023",
+      "en": "Bryce Canyon — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/112.jpg",
+     "t": "img/usa/112-1200.jpg",
+     "cap": {
+      "fr": "Yosemite — août 2023",
+      "en": "Yosemite — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/114.jpg",
+     "t": "img/usa/114-1200.jpg",
+     "cap": {
+      "fr": "Yosemite — août 2023",
+      "en": "Yosemite — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/109.jpg",
+     "t": "img/usa/109-1200.jpg",
+     "cap": {
+      "fr": "Yosemite — août 2023",
+      "en": "Yosemite — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/005.jpg",
+     "t": "img/usa/005-1200.jpg",
+     "cap": {
+      "fr": "Joshua Tree — août 2023",
+      "en": "Joshua Tree — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/003.jpg",
+     "t": "img/usa/003-1200.jpg",
+     "cap": {
+      "fr": "Joshua Tree — août 2023",
+      "en": "Joshua Tree — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/138.jpg",
+     "t": "img/usa/138-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/usa/139.jpg",
+     "t": "img/usa/139-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/usa/133.jpg",
+     "t": "img/usa/133-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1920,
+     "h": 2400,
+     "src": "img/usa/126.jpg",
+     "t": "img/usa/126-1200.jpg",
+     "cap": {
+      "fr": "Route 66 — août 2023",
+      "en": "Route 66 — August 2023"
+     }
+    },
+    {
+     "w": 1920,
+     "h": 2560,
+     "s": "cbe3f1f8-9056-416c-ae24-892a7043335c_rw_1200.jpg?h=f033ac2cba338e08e845e5eeb45a3fb5",
+     "l": "cbe3f1f8-9056-416c-ae24-892a7043335c_rw_1920.jpg?h=324beb479e5f815b451fb510a6dffb6a",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 2160,
+     "s": "d8c24aee-636d-4565-8205-7a8379ef1ca5_rw_1200.jpg?h=58c257cfd561dcd16b2d2ccd6afff0e1",
+     "l": "d8c24aee-636d-4565-8205-7a8379ef1ca5_rw_1920.jpg?h=d0bc68ff202d4da0f16c340aa347466c",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 6826,
+     "s": "bb3ac35f-b68c-48af-8a64-362acc7f06fd_rw_1200.jpg?h=d94449b00ef0ff29f5bb5f68b385f4c6",
+     "l": "bb3ac35f-b68c-48af-8a64-362acc7f06fd_rw_1920.jpg?h=311e60a4a41cc46c9820dc5db476b53b",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 2160,
+     "s": "cf5f56fc-306b-4e7a-bca5-b42befc99150_rw_1200.jpg?h=b16e2214c3af4e56fb3c29e47bf06e9a",
+     "l": "cf5f56fc-306b-4e7a-bca5-b42befc99150_rw_1920.jpg?h=bf0b15a0166c4e21437c5e6615402839",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 6826,
+     "s": "2df61f2c-b23c-4079-b4f6-aed49f01ba19_rw_1200.JPG?h=2272b30c1352e45454051b7ed595d64f",
+     "l": "2df61f2c-b23c-4079-b4f6-aed49f01ba19_rw_1920.JPG?h=2f715be2cd8ab734cd2324726be53f1f",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 5120,
+     "s": "ccbf59ae-62c6-4801-b080-53a79b13d53c_rw_1200.JPG?h=57081981b56c4e572a29c09fcf269f65",
+     "l": "ccbf59ae-62c6-4801-b080-53a79b13d53c_rw_1920.JPG?h=86e1e8a9b64c6f903983f1793298e715",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 5120,
+     "s": "c159f818-d3ff-4dbe-af52-2364a436ec81_rw_1200.JPG?h=dbe55bf186f8766f6e36998e04c6a0f6",
+     "l": "c159f818-d3ff-4dbe-af52-2364a436ec81_rw_1920.JPG?h=dfebcf341daa6d3920f78ff700565d99",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 5120,
+     "s": "a7141ee5-6d5b-45db-bc2b-4aa267802bac_rw_1200.JPG?h=bfc38ccb7478a9eee195d91f6943ef0b",
+     "l": "a7141ee5-6d5b-45db-bc2b-4aa267802bac_rw_1920.JPG?h=551d2ca3cd3d444f774ec379dac6caf9",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    },
+    {
+     "w": 3840,
+     "h": 5120,
+     "s": "f0debbe5-957a-4b8a-a027-706416fe3bf9_rw_1200.jpg?h=1ce498907083cdf6b74e22e8650d84f4",
+     "l": "f0debbe5-957a-4b8a-a027-706416fe3bf9_rw_1920.jpg?h=db20b2ba29556cdda4f305101bd8831e",
+     "cap": {
+      "fr": "Vue aérienne au drone — Méditerranée",
+      "en": "Drone aerial view — Mediterranean"
+     }
+    }
+   ],
+   "rows": [
+    [
+     7
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     17,
+     18,
+     19
+    ],
+    [
+     29
+    ],
+    [
+     30,
+     31
+    ],
+    [
+     32,
+     34,
+     36
+    ],
+    [
+     58,
+     60
+    ]
+   ],
+   "title": {
+    "fr": "Voyages",
+    "en": "Travel"
+   },
+   "subtitle": {
+    "fr": "Montagne, Méditerranée, Ouest américain, vues aériennes",
+    "en": "Mountains, the Mediterranean, the American West, aerial views"
+   },
+   "place": {
+    "fr": "Alpes · Var · Utah · Arizona · Californie",
+    "en": "Alps · Var · Utah · Arizona · California"
+   },
+   "year": "2023 — 2026",
+   "text": {
+    "fr": "Carnet de route : Tignes et le glacier de la Grande Motte, les criques turquoise de Cavalaire, un road trip dans l'Ouest américain de Monument Valley à Yosemite, et le littoral vu du ciel au drone.",
+    "en": "A travel log: Tignes and the Grande Motte glacier, the turquoise coves of Cavalaire, a road trip through the American West from Monument Valley to Yosemite, and the coastline seen from above by drone."
+   },
+   "featured": [
+    7,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    17,
+    18,
+    19,
+    29,
+    30,
+    31,
+    32,
+    34,
+    36,
+    58,
+    60
+   ]
+  },
+  {
+   "id": "street",
+   "layout": "register",
+   "featured": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "title": {
+    "fr": "Street",
+    "en": "Street"
+   },
+   "subtitle": {
+    "fr": "Photographie de rue",
+    "en": "Street photography"
+   },
+   "place": {
+    "fr": "New York · Los Angeles",
+    "en": "New York · Los Angeles"
+   },
+   "year": "2023 — 2024",
+   "text": {
+    "fr": "New York en hiver et Los Angeles en plein été : ponts, avenues, taxis, façades et palmiers, entre lumière dure et ombres profondes.",
+    "en": "New York in winter and Los Angeles in high summer: bridges, avenues, cabs, façades and palm trees, between hard light and deep shadow."
+   },
+   "photos": [
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/046.jpg",
+     "t": "img/street/046-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/043.jpg",
+     "t": "img/street/043-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/039.jpg",
+     "t": "img/street/039-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/054.jpg",
+     "t": "img/street/054-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/027.jpg",
+     "t": "img/street/027-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/063.jpg",
+     "t": "img/street/063-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/037.jpg",
+     "t": "img/street/037-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/008.jpg",
+     "t": "img/street/008-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    },
+    {
+     "w": 1920,
+     "h": 2400,
+     "src": "img/street/010.jpg",
+     "t": "img/street/010-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/050.jpg",
+     "t": "img/street/050-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/051.jpg",
+     "t": "img/street/051-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/049.jpg",
+     "t": "img/street/049-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/048.jpg",
+     "t": "img/street/048-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/064.jpg",
+     "t": "img/street/064-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/065.jpg",
+     "t": "img/street/065-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/066.jpg",
+     "t": "img/street/066-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/021.jpg",
+     "t": "img/street/021-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/026.jpg",
+     "t": "img/street/026-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/031.jpg",
+     "t": "img/street/031-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/034.jpg",
+     "t": "img/street/034-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/028.jpg",
+     "t": "img/street/028-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/055.jpg",
+     "t": "img/street/055-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/street/045.jpg",
+     "t": "img/street/045-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/061.jpg",
+     "t": "img/street/061-1200.jpg",
+     "cap": {
+      "fr": "New York — décembre 2024",
+      "en": "New York — December 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/018.jpg",
+     "t": "img/street/018-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/street/007.jpg",
+     "t": "img/street/007-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    }
+   ]
+  },
+  {
+   "id": "automotive",
+   "layout": "rows",
+   "featured": [
+    12,
+    0,
+    1,
+    2,
+    4,
+    7,
+    3,
+    13,
+    14,
+    15,
+    17,
+    18,
+    26,
+    27,
+    28,
+    33,
+    30,
+    35,
+    38,
+    47,
+    48,
+    31
+   ],
+   "title": {
+    "fr": "Automobile",
+    "en": "Automotive"
+   },
+   "subtitle": {
+    "fr": "Rallye, salons, voitures de collection",
+    "en": "Rallying, motor shows, classic cars"
+   },
+   "place": {
+    "fr": "Monte-Carlo · Charbonnières · Mont-Blanc · Lyon · Los Angeles",
+    "en": "Monte-Carlo · Charbonnières · Mont-Blanc · Lyon · Los Angeles"
+   },
+   "year": "2023 — 2026",
+   "text": {
+    "fr": "Le Rallye Monte-Carlo à la tombée de la nuit, les spéciales de Charbonnières et du Mont-Blanc, les salons Epoq'auto à Lyon et quelques belles rencontres dans les rues de Los Angeles.",
+    "en": "The Monte-Carlo Rally at nightfall, the stages of Charbonnières and Mont-Blanc, the Epoq'auto shows in Lyon and a few great finds in the streets of Los Angeles."
+   },
+   "photos": [
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r165.jpg",
+     "t": "img/auto/r165-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r168.jpg",
+     "t": "img/auto/r168-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r162.jpg",
+     "t": "img/auto/r162-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r255.jpg",
+     "t": "img/auto/r255-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r261.jpg",
+     "t": "img/auto/r261-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r264.jpg",
+     "t": "img/auto/r264-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r266.jpg",
+     "t": "img/auto/r266-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r267.jpg",
+     "t": "img/auto/r267-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r236.jpg",
+     "t": "img/auto/r236-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r241.jpg",
+     "t": "img/auto/r241-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r254.jpg",
+     "t": "img/auto/r254-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r170.jpg",
+     "t": "img/auto/r170-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1800,
+     "src": "img/auto/r181.jpg",
+     "t": "img/auto/r181-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1844,
+     "src": "img/auto/r214.jpg",
+     "t": "img/auto/r214-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1800,
+     "src": "img/auto/r185.jpg",
+     "t": "img/auto/r185-1200.jpg",
+     "cap": {
+      "fr": "Rallye Monte-Carlo — janvier 2025",
+      "en": "Monte-Carlo Rally — January 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r103.jpg",
+     "t": "img/auto/r103-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r105.jpg",
+     "t": "img/auto/r105-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r107.jpg",
+     "t": "img/auto/r107-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r132.jpg",
+     "t": "img/auto/r132-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r145.jpg",
+     "t": "img/auto/r145-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r141.jpg",
+     "t": "img/auto/r141-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r142.jpg",
+     "t": "img/auto/r142-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r124.jpg",
+     "t": "img/auto/r124-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r148.jpg",
+     "t": "img/auto/r148-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2025",
+      "en": "Charbonnières Rally — April 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r151.jpg",
+     "t": "img/auto/r151-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2026",
+      "en": "Charbonnières Rally — April 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r152.jpg",
+     "t": "img/auto/r152-1200.jpg",
+     "cap": {
+      "fr": "Rallye de Charbonnières — avril 2026",
+      "en": "Charbonnières Rally — April 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r154.jpg",
+     "t": "img/auto/r154-1200.jpg",
+     "cap": {
+      "fr": "Rallye du Mont-Blanc — septembre 2025",
+      "en": "Mont-Blanc Rally — September 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r155.jpg",
+     "t": "img/auto/r155-1200.jpg",
+     "cap": {
+      "fr": "Rallye du Mont-Blanc — septembre 2025",
+      "en": "Mont-Blanc Rally — September 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r156.jpg",
+     "t": "img/auto/r156-1200.jpg",
+     "cap": {
+      "fr": "Rallye du Mont-Blanc — septembre 2025",
+      "en": "Mont-Blanc Rally — September 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r157.jpg",
+     "t": "img/auto/r157-1200.jpg",
+     "cap": {
+      "fr": "Rallye du Mont-Blanc — septembre 2025",
+      "en": "Mont-Blanc Rally — September 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1800,
+     "src": "img/auto/r028.jpg",
+     "t": "img/auto/r028-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r029.jpg",
+     "t": "img/auto/r029-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r031.jpg",
+     "t": "img/auto/r031-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r042.jpg",
+     "t": "img/auto/r042-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r043.jpg",
+     "t": "img/auto/r043-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r045.jpg",
+     "t": "img/auto/r045-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1350,
+     "h": 2400,
+     "src": "img/auto/r048.jpg",
+     "t": "img/auto/r048-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r049.jpg",
+     "t": "img/auto/r049-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1800,
+     "h": 2400,
+     "src": "img/auto/r051.jpg",
+     "t": "img/auto/r051-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r052.jpg",
+     "t": "img/auto/r052-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r047.jpg",
+     "t": "img/auto/r047-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2026",
+      "en": "Epoq'auto, Lyon — November 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r006.jpg",
+     "t": "img/auto/r006-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/auto/r012.jpg",
+     "t": "img/auto/r012-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r018.jpg",
+     "t": "img/auto/r018-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r019.jpg",
+     "t": "img/auto/r019-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r022.jpg",
+     "t": "img/auto/r022-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/r010.jpg",
+     "t": "img/auto/r010-1200.jpg",
+     "cap": {
+      "fr": "Epoq'auto, Lyon — novembre 2024",
+      "en": "Epoq'auto, Lyon — November 2024"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/017.jpg",
+     "t": "img/auto/017-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/013.jpg",
+     "t": "img/auto/013-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/014.jpg",
+     "t": "img/auto/014-1200.jpg",
+     "cap": {
+      "fr": "Los Angeles — août 2023",
+      "en": "Los Angeles — August 2023"
+     }
+    }
+   ],
+   "dark": true,
+   "rows": [
+    [
+     12
+    ],
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     4,
+     7,
+     3
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     15,
+     17,
+     18
+    ],
+    [
+     26,
+     27,
+     28
+    ],
+    [
+     33
+    ],
+    [
+     30,
+     35,
+     38
+    ],
+    [
+     47,
+     48,
+     31
+    ]
+   ]
   },
   {
    "id": "weddings",
@@ -593,1724 +2519,6 @@ window.PHOTO = {
      "h": 5760,
      "s": "de8aadb3-16fe-4c0b-8997-b32866332951_rw_1200.jpg?h=0a664209e248873ac6c7b4c3d8e5e1c9",
      "l": "de8aadb3-16fe-4c0b-8997-b32866332951_rw_1920.jpg?h=700d5bf690929a3aec8bd17e7a6e198a"
-    }
-   ]
-  },
-  {
-   "id": "landscapes",
-   "layout": "rows",
-   "featured": [
-    0,
-    4,
-    1,
-    8,
-    7,
-    13,
-    10,
-    15,
-    14,
-    18
-   ],
-   "title": {
-    "fr": "Paysages & Nature",
-    "en": "Landscapes & Nature"
-   },
-   "subtitle": {
-    "fr": "Montagne, lacs, faune",
-    "en": "Mountains, lakes, wildlife"
-   },
-   "place": {
-    "fr": "Alpes",
-    "en": "Alps"
-   },
-   "year": "2025 — 2026",
-   "text": {
-    "fr": "Le lac de Peyre entre la nuit et le lever du soleil, les bouquetins dans la pente, puis le lac Guichard et le cirque de Sixt-Fer-à-Cheval : la lumière rasante, l'échelle et le silence de la montagne.",
-    "en": "Lac de Peyre from night to sunrise, ibex on the slopes, then Lac Guichard and the Sixt-Fer-à-Cheval cirque: low light, scale and the silence of the mountains."
-   },
-   "photos": [
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-silhouette.jpg",
-     "t": "img/paysages/peyre-silhouette-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-cretes.jpg",
-     "t": "img/paysages/peyre-cretes-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-lumiere.jpg",
-     "t": "img/paysages/peyre-lumiere-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/peyre-gorge.jpg",
-     "t": "img/paysages/peyre-gorge-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-aube-rose.jpg",
-     "t": "img/paysages/peyre-aube-rose-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-vallee.jpg",
-     "t": "img/paysages/peyre-vallee-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-ombre.jpg",
-     "t": "img/paysages/peyre-ombre-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/peyre-bouquetin-nb.jpg",
-     "t": "img/paysages/peyre-bouquetin-nb-1200.jpg",
-     "cap": {
-      "fr": "Bouquetin — lac de Peyre, juillet 2026",
-      "en": "Ibex — Lac de Peyre, July 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/peyre-bouquetin.jpg",
-     "t": "img/paysages/peyre-bouquetin-1200.jpg",
-     "cap": {
-      "fr": "Bouquetin — lac de Peyre, juillet 2026",
-      "en": "Ibex — Lac de Peyre, July 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/peyre-bouquetin-fleurs.jpg",
-     "t": "img/paysages/peyre-bouquetin-fleurs-1200.jpg",
-     "cap": {
-      "fr": "Bouquetin — lac de Peyre, juillet 2026",
-      "en": "Ibex — Lac de Peyre, July 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-bouquetins-soleil.jpg",
-     "t": "img/paysages/peyre-bouquetins-soleil-1200.jpg",
-     "cap": {
-      "fr": "Bouquetins — lac de Peyre, juillet 2026",
-      "en": "Ibex — Lac de Peyre, July 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/peyre-tente.jpg",
-     "t": "img/paysages/peyre-tente-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 1350,
-     "h": 2400,
-     "src": "img/paysages/peyre-nb.jpg",
-     "t": "img/paysages/peyre-nb-1200.jpg",
-     "cap": {
-      "fr": "Lac de Peyre — juillet 2026",
-      "en": "Lac de Peyre — July 2026"
-     }
-    },
-    {
-     "w": 1280,
-     "h": 1920,
-     "src": "img/paysages/guichard-reflet-jour.jpg",
-     "t": "img/paysages/guichard-reflet-jour-1200.jpg",
-     "cap": {
-      "fr": "Lac Guichard — août 2026",
-      "en": "Lac Guichard — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/paysages/sixt-cirque.jpg",
-     "t": "img/paysages/sixt-cirque-1200.jpg",
-     "cap": {
-      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
-      "en": "Sixt-Fer-à-Cheval — September 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/sixt-vallee.jpg",
-     "t": "img/paysages/sixt-vallee-1200.jpg",
-     "cap": {
-      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
-      "en": "Sixt-Fer-à-Cheval — September 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/sixt-cascade.jpg",
-     "t": "img/paysages/sixt-cascade-1200.jpg",
-     "cap": {
-      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
-      "en": "Sixt-Fer-à-Cheval — September 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/sixt-prairie.jpg",
-     "t": "img/paysages/sixt-prairie-1200.jpg",
-     "cap": {
-      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
-      "en": "Sixt-Fer-à-Cheval — September 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/paysages/sixt-falaises.jpg",
-     "t": "img/paysages/sixt-falaises-1200.jpg",
-     "cap": {
-      "fr": "Sixt-Fer-à-Cheval — septembre 2026",
-      "en": "Sixt-Fer-à-Cheval — September 2026"
-     }
-    }
-   ],
-   "rows": [
-    [
-     0
-    ],
-    [
-     4,
-     1
-    ],
-    [
-     8,
-     7,
-     13
-    ],
-    [
-     10,
-     15
-    ],
-    [
-     14,
-     18
-    ]
-   ]
-  },
-  {
-   "id": "usa",
-   "layout": "rows",
-   "rows": [
-    [
-     0
-    ],
-    [
-     1,
-     2
-    ],
-    [
-     3,
-     4,
-     5
-    ],
-    [
-     6,
-     7
-    ],
-    [
-     8,
-     9,
-     10
-    ]
-   ],
-   "featured": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10
-   ],
-   "photos": [
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/086.jpg",
-     "t": "img/usa/086-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/087.jpg",
-     "t": "img/usa/087-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/118.jpg",
-     "t": "img/usa/118-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/091.jpg",
-     "t": "img/usa/091-1200.jpg",
-     "cap": {
-      "fr": "Antelope Canyon — août 2023",
-      "en": "Antelope Canyon — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/092.jpg",
-     "t": "img/usa/092-1200.jpg",
-     "cap": {
-      "fr": "Antelope Canyon — août 2023",
-      "en": "Antelope Canyon — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/105.jpg",
-     "t": "img/usa/105-1200.jpg",
-     "cap": {
-      "fr": "Grand Canyon — août 2023",
-      "en": "Grand Canyon — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/098.jpg",
-     "t": "img/usa/098-1200.jpg",
-     "cap": {
-      "fr": "Bryce Canyon — août 2023",
-      "en": "Bryce Canyon — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/106.jpg",
-     "t": "img/usa/106-1200.jpg",
-     "cap": {
-      "fr": "Bryce Canyon — août 2023",
-      "en": "Bryce Canyon — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/134.jpg",
-     "t": "img/usa/134-1200.jpg",
-     "cap": {
-      "fr": "Route 66 — août 2023",
-      "en": "Route 66 — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/135.jpg",
-     "t": "img/usa/135-1200.jpg",
-     "cap": {
-      "fr": "Route 66 — août 2023",
-      "en": "Route 66 — August 2023"
-     }
-    },
-    {
-     "w": 1920,
-     "h": 2400,
-     "src": "img/usa/117.jpg",
-     "t": "img/usa/117-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/074.jpg",
-     "t": "img/usa/074-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/080.jpg",
-     "t": "img/usa/080-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/085.jpg",
-     "t": "img/usa/085-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/075.jpg",
-     "t": "img/usa/075-1200.jpg",
-     "cap": {
-      "fr": "Monument Valley — août 2023",
-      "en": "Monument Valley — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/089.jpg",
-     "t": "img/usa/089-1200.jpg",
-     "cap": {
-      "fr": "Antelope Canyon — août 2023",
-      "en": "Antelope Canyon — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/095.jpg",
-     "t": "img/usa/095-1200.jpg",
-     "cap": {
-      "fr": "Antelope Canyon — août 2023",
-      "en": "Antelope Canyon — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/116.jpg",
-     "t": "img/usa/116-1200.jpg",
-     "cap": {
-      "fr": "Grand Canyon — août 2023",
-      "en": "Grand Canyon — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/097.jpg",
-     "t": "img/usa/097-1200.jpg",
-     "cap": {
-      "fr": "Bryce Canyon — août 2023",
-      "en": "Bryce Canyon — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/112.jpg",
-     "t": "img/usa/112-1200.jpg",
-     "cap": {
-      "fr": "Yosemite — août 2023",
-      "en": "Yosemite — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/114.jpg",
-     "t": "img/usa/114-1200.jpg",
-     "cap": {
-      "fr": "Yosemite — août 2023",
-      "en": "Yosemite — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/109.jpg",
-     "t": "img/usa/109-1200.jpg",
-     "cap": {
-      "fr": "Yosemite — août 2023",
-      "en": "Yosemite — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/005.jpg",
-     "t": "img/usa/005-1200.jpg",
-     "cap": {
-      "fr": "Joshua Tree — août 2023",
-      "en": "Joshua Tree — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/003.jpg",
-     "t": "img/usa/003-1200.jpg",
-     "cap": {
-      "fr": "Joshua Tree — août 2023",
-      "en": "Joshua Tree — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/138.jpg",
-     "t": "img/usa/138-1200.jpg",
-     "cap": {
-      "fr": "Route 66 — août 2023",
-      "en": "Route 66 — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/usa/139.jpg",
-     "t": "img/usa/139-1200.jpg",
-     "cap": {
-      "fr": "Route 66 — août 2023",
-      "en": "Route 66 — August 2023"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/usa/133.jpg",
-     "t": "img/usa/133-1200.jpg",
-     "cap": {
-      "fr": "Route 66 — août 2023",
-      "en": "Route 66 — August 2023"
-     }
-    },
-    {
-     "w": 1920,
-     "h": 2400,
-     "src": "img/usa/126.jpg",
-     "t": "img/usa/126-1200.jpg",
-     "cap": {
-      "fr": "Route 66 — août 2023",
-      "en": "Route 66 — August 2023"
-     }
-    }
-   ],
-   "title": {
-    "fr": "Ouest américain",
-    "en": "American West"
-   },
-   "subtitle": {
-    "fr": "Parcs nationaux, déserts, Route 66",
-    "en": "National parks, deserts, Route 66"
-   },
-   "place": {
-    "fr": "Utah · Arizona · Californie",
-    "en": "Utah · Arizona · California"
-   },
-   "year": "2023",
-   "text": {
-    "fr": "Un road trip dans l'Ouest américain : Monument Valley au coucher du soleil, les parois d'Antelope Canyon, Bryce, le Grand Canyon, Yosemite, Joshua Tree et les stations-service de la Route 66. Photos de 2023, retouchées en 2026.",
-    "en": "A road trip through the American West: Monument Valley at sunset, the walls of Antelope Canyon, Bryce, the Grand Canyon, Yosemite, Joshua Tree and the gas stations of Route 66. Shot in 2023, re-edited in 2026."
-   }
-  },
-  {
-   "id": "voyages",
-   "layout": "rows",
-   "photos": [
-    {
-     "w": 1589,
-     "h": 2400,
-     "src": "img/voyages/v137.jpg",
-     "t": "img/voyages/v137-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v126.jpg",
-     "t": "img/voyages/v126-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v127.jpg",
-     "t": "img/voyages/v127-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v139.jpg",
-     "t": "img/voyages/v139-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v142.jpg",
-     "t": "img/voyages/v142-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v144.jpg",
-     "t": "img/voyages/v144-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v146.jpg",
-     "t": "img/voyages/v146-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v148.jpg",
-     "t": "img/voyages/v148-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v157.jpg",
-     "t": "img/voyages/v157-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v120.jpg",
-     "t": "img/voyages/v120-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v122.jpg",
-     "t": "img/voyages/v122-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v134.jpg",
-     "t": "img/voyages/v134-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v091.jpg",
-     "t": "img/voyages/v091-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v083.jpg",
-     "t": "img/voyages/v083-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v102.jpg",
-     "t": "img/voyages/v102-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v117.jpg",
-     "t": "img/voyages/v117-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1392,
-     "h": 2400,
-     "src": "img/voyages/v115.jpg",
-     "t": "img/voyages/v115-1200.jpg",
-     "cap": {
-      "fr": "Tignes et col de l'Iseran — août 2026",
-      "en": "Tignes and Col de l'Iseran — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v161.jpg",
-     "t": "img/voyages/v161-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v164.jpg",
-     "t": "img/voyages/v164-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v171.jpg",
-     "t": "img/voyages/v171-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v172.jpg",
-     "t": "img/voyages/v172-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v163.jpg",
-     "t": "img/voyages/v163-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v177.jpg",
-     "t": "img/voyages/v177-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v182.jpg",
-     "t": "img/voyages/v182-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v184.jpg",
-     "t": "img/voyages/v184-1200.jpg",
-     "cap": {
-      "fr": "Lac d'Annecy et Aravis — janvier 2026",
-      "en": "Lake Annecy and the Aravis — January 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v214.jpg",
-     "t": "img/voyages/v214-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v219.jpg",
-     "t": "img/voyages/v219-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v213.jpg",
-     "t": "img/voyages/v213-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v218.jpg",
-     "t": "img/voyages/v218-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v227.jpg",
-     "t": "img/voyages/v227-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v225.jpg",
-     "t": "img/voyages/v225-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v232.jpg",
-     "t": "img/voyages/v232-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v235.jpg",
-     "t": "img/voyages/v235-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v482.jpg",
-     "t": "img/voyages/v482-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v493.jpg",
-     "t": "img/voyages/v493-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v501.jpg",
-     "t": "img/voyages/v501-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v499.jpg",
-     "t": "img/voyages/v499-1200.jpg",
-     "cap": {
-      "fr": "Cavalaire, Var — juin 2026",
-      "en": "Cavalaire, Var — June 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v003.jpg",
-     "t": "img/voyages/v003-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v019.jpg",
-     "t": "img/voyages/v019-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v064.jpg",
-     "t": "img/voyages/v064-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v008.jpg",
-     "t": "img/voyages/v008-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v041.jpg",
-     "t": "img/voyages/v041-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v069.jpg",
-     "t": "img/voyages/v069-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v065.jpg",
-     "t": "img/voyages/v065-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v000.jpg",
-     "t": "img/voyages/v000-1200.jpg",
-     "cap": {
-      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
-      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v508.jpg",
-     "t": "img/voyages/v508-1200.jpg",
-     "cap": {
-      "fr": "Côte d'Azur — été 2025",
-      "en": "French Riviera — summer 2025"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v510.jpg",
-     "t": "img/voyages/v510-1200.jpg",
-     "cap": {
-      "fr": "Côte d'Azur — été 2025",
-      "en": "French Riviera — summer 2025"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/voyages/v514.jpg",
-     "t": "img/voyages/v514-1200.jpg",
-     "cap": {
-      "fr": "Côte d'Azur — été 2025",
-      "en": "French Riviera — summer 2025"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/voyages/v511.jpg",
-     "t": "img/voyages/v511-1200.jpg",
-     "cap": {
-      "fr": "Côte d'Azur — été 2025",
-      "en": "French Riviera — summer 2025"
-     }
-    }
-   ],
-   "rows": [
-    [
-     0
-    ],
-    [
-     1,
-     2
-    ],
-    [
-     3,
-     4,
-     5
-    ],
-    [
-     17,
-     18
-    ],
-    [
-     25,
-     26,
-     27
-    ],
-    [
-     37,
-     38
-    ],
-    [
-     19,
-     20
-    ],
-    [
-     45,
-     46
-    ]
-   ],
-   "title": {
-    "fr": "Voyages",
-    "en": "Travel"
-   },
-   "subtitle": {
-    "fr": "Montagne, lacs, Méditerranée",
-    "en": "Mountains, lakes, the Mediterranean"
-   },
-   "place": {
-    "fr": "Alpes · Drôme · Côte d'Azur",
-    "en": "Alps · Drôme · French Riviera"
-   },
-   "year": "2025 — 2026",
-   "text": {
-    "fr": "Carnet de route entre les Alpes et la Méditerranée : Tignes et le glacier de la Grande Motte, le lac d'Annecy en hiver, les criques turquoise de Cavalaire, le Palais idéal du Facteur Cheval et les soirs sur la Côte d'Azur.",
-    "en": "A travel log between the Alps and the Mediterranean: Tignes and the Grande Motte glacier, Lake Annecy in winter, the turquoise coves of Cavalaire, Facteur Cheval's Ideal Palace and evenings on the French Riviera."
-   },
-   "featured": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    17,
-    18,
-    25,
-    26,
-    27,
-    37,
-    38,
-    19,
-    20,
-    45,
-    46
-   ]
-  },
-  {
-   "id": "street",
-   "layout": "register",
-   "featured": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8
-   ],
-   "title": {
-    "fr": "Street",
-    "en": "Street"
-   },
-   "subtitle": {
-    "fr": "Photographie de rue",
-    "en": "Street photography"
-   },
-   "place": {
-    "fr": "New York · Los Angeles",
-    "en": "New York · Los Angeles"
-   },
-   "year": "2023 — 2024",
-   "text": {
-    "fr": "New York en hiver et Los Angeles en plein été : ponts, avenues, taxis, façades et palmiers, entre lumière dure et ombres profondes.",
-    "en": "New York in winter and Los Angeles in high summer: bridges, avenues, cabs, façades and palm trees, between hard light and deep shadow."
-   },
-   "photos": [
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/046.jpg",
-     "t": "img/street/046-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/043.jpg",
-     "t": "img/street/043-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/039.jpg",
-     "t": "img/street/039-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/street/054.jpg",
-     "t": "img/street/054-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/027.jpg",
-     "t": "img/street/027-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/063.jpg",
-     "t": "img/street/063-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/037.jpg",
-     "t": "img/street/037-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/008.jpg",
-     "t": "img/street/008-1200.jpg",
-     "cap": {
-      "fr": "Los Angeles — août 2023",
-      "en": "Los Angeles — August 2023"
-     }
-    },
-    {
-     "w": 1920,
-     "h": 2400,
-     "src": "img/street/010.jpg",
-     "t": "img/street/010-1200.jpg",
-     "cap": {
-      "fr": "Los Angeles — août 2023",
-      "en": "Los Angeles — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/050.jpg",
-     "t": "img/street/050-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/street/051.jpg",
-     "t": "img/street/051-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/049.jpg",
-     "t": "img/street/049-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/048.jpg",
-     "t": "img/street/048-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/064.jpg",
-     "t": "img/street/064-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/065.jpg",
-     "t": "img/street/065-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/066.jpg",
-     "t": "img/street/066-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/021.jpg",
-     "t": "img/street/021-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/street/026.jpg",
-     "t": "img/street/026-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/031.jpg",
-     "t": "img/street/031-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/034.jpg",
-     "t": "img/street/034-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/028.jpg",
-     "t": "img/street/028-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/055.jpg",
-     "t": "img/street/055-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 2400,
-     "h": 1600,
-     "src": "img/street/045.jpg",
-     "t": "img/street/045-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/061.jpg",
-     "t": "img/street/061-1200.jpg",
-     "cap": {
-      "fr": "New York — décembre 2024",
-      "en": "New York — December 2024"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/018.jpg",
-     "t": "img/street/018-1200.jpg",
-     "cap": {
-      "fr": "Los Angeles — août 2023",
-      "en": "Los Angeles — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/street/007.jpg",
-     "t": "img/street/007-1200.jpg",
-     "cap": {
-      "fr": "Los Angeles — août 2023",
-      "en": "Los Angeles — August 2023"
-     }
-    }
-   ]
-  },
-  {
-   "id": "automotive",
-   "layout": "dark",
-   "featured": [
-    0,
-    1,
-    4,
-    9,
-    10
-   ],
-   "title": {
-    "fr": "Automobile",
-    "en": "Automotive"
-   },
-   "subtitle": {
-    "fr": "Voitures, détails, route",
-    "en": "Cars, details, the road"
-   },
-   "place": {
-    "fr": "France · États-Unis",
-    "en": "France · United States"
-   },
-   "year": "2026",
-   "text": {
-    "fr": "Des voitures dans leur décor : une route en forêt, un tableau de bord, une sportive sous les palmiers.",
-    "en": "Cars in their setting: a forest road, a dashboard, a sports car under the palm trees."
-   },
-   "photos": [
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "750bdaa9-6889-4c52-8e7d-bec395815a6e_rw_1200.jpg?h=6d8f468a28ec67b9882eaed030f64042",
-     "l": "750bdaa9-6889-4c52-8e7d-bec395815a6e_rw_1920.jpg?h=e2d7bb976952c7449dc64f04e5af8011",
-     "blur": [
-      [
-       37.3,
-       54.2,
-       44.5,
-       56.1
-      ]
-     ]
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "e24f330d-b479-4382-901f-1f27057daa31_rw_1200.jpg?h=25e144edb91acb4c5758b73d9f3a72eb",
-     "l": "e24f330d-b479-4382-901f-1f27057daa31_rw_1920.jpg?h=892381a230a260b0fd06b57650cad288",
-     "blur": [
-      [
-       29.5,
-       56.6,
-       46,
-       60.6
-      ]
-     ]
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "a3af4b87-1b7f-4548-a7d1-a3e5f27cabfa_rw_1200.jpg?h=8f226d98b1b4b3a9b96d8bc03c9d1ea6",
-     "l": "a3af4b87-1b7f-4548-a7d1-a3e5f27cabfa_rw_1920.jpg?h=b02c5d28562cc96a6e6c0ac1455aa22d",
-     "blur": [
-      [
-       0,
-       62.9,
-       23.5,
-       68.3
-      ]
-     ]
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "6a1d4404-c3ff-49a0-850b-fce6c9e04fc7_rw_1200.jpg?h=5cf1308457cddd20f10aea77ad439adf",
-     "l": "6a1d4404-c3ff-49a0-850b-fce6c9e04fc7_rw_1920.jpg?h=5bfb13bcda08fc2fc6f7920914af4bc3",
-     "blur": [
-      [
-       37.3,
-       58.3,
-       55.9,
-       62.2
-      ]
-     ]
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "4f8e3780-9632-4ff4-8982-5907efeb5ad2_rw_1200.jpg?h=fcee5fa8483797841c32383bbf5c00c8",
-     "l": "4f8e3780-9632-4ff4-8982-5907efeb5ad2_rw_1920.jpg?h=352fb4a74e0d5d5ea154875cf1eea2d2"
-    },
-    {
-     "w": 3840,
-     "h": 5760,
-     "s": "6f4de216-3da6-4273-a679-353eac7ca94b_rw_1200.jpg?h=263c71968cf49fbfe1b5e0fbac68815c",
-     "l": "6f4de216-3da6-4273-a679-353eac7ca94b_rw_1920.jpg?h=43eeddfba6e150230d31581ec83b2aa0"
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/017.jpg",
-     "t": "img/auto/017-1200.jpg",
-     "cap": {
-      "fr": "Los Angeles — août 2023",
-      "en": "Los Angeles — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/013.jpg",
-     "t": "img/auto/013-1200.jpg",
-     "cap": {
-      "fr": "Los Angeles — août 2023",
-      "en": "Los Angeles — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/014.jpg",
-     "t": "img/auto/014-1200.jpg",
-     "cap": {
-      "fr": "Los Angeles — août 2023",
-      "en": "Los Angeles — August 2023"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/v573.jpg",
-     "t": "img/auto/v573-1200.jpg",
-     "cap": {
-      "fr": "Cannes — été 2025",
-      "en": "Cannes — summer 2025"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/v576.jpg",
-     "t": "img/auto/v576-1200.jpg",
-     "cap": {
-      "fr": "Cannes — été 2025",
-      "en": "Cannes — summer 2025"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/v558.jpg",
-     "t": "img/auto/v558-1200.jpg",
-     "cap": {
-      "fr": "Cannes — été 2025",
-      "en": "Cannes — summer 2025"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/v540.jpg",
-     "t": "img/auto/v540-1200.jpg",
-     "cap": {
-      "fr": "Cannes — été 2025",
-      "en": "Cannes — summer 2025"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/v527.jpg",
-     "t": "img/auto/v527-1200.jpg",
-     "cap": {
-      "fr": "Cannes — été 2025",
-      "en": "Cannes — summer 2025"
-     }
-    },
-    {
-     "w": 1600,
-     "h": 2400,
-     "src": "img/auto/v594.jpg",
-     "t": "img/auto/v594-1200.jpg",
-     "cap": {
-      "fr": "Cannes — été 2025",
-      "en": "Cannes — summer 2025"
-     }
-    }
-   ]
-  },
-  {
-   "id": "aerial",
-   "layout": "strip",
-   "featured": [
-    1,
-    4,
-    5,
-    7
-   ],
-   "title": {
-    "fr": "Drone",
-    "en": "Aerial"
-   },
-   "subtitle": {
-    "fr": "Vues aériennes",
-    "en": "Aerial photography"
-   },
-   "place": {
-    "fr": "Littoral",
-    "en": "Coastline"
-   },
-   "year": "2026",
-   "text": {
-    "fr": "Le littoral vu d'en haut : eaux turquoise, criques, rochers et lignes de sable que l'on ne voit pas depuis le sol.",
-    "en": "The coast from above: turquoise water, coves, rocks and lines of sand you never see from the ground."
-   },
-   "photos": [
-    {
-     "w": 1920,
-     "h": 2560,
-     "s": "cbe3f1f8-9056-416c-ae24-892a7043335c_rw_1200.jpg?h=f033ac2cba338e08e845e5eeb45a3fb5",
-     "l": "cbe3f1f8-9056-416c-ae24-892a7043335c_rw_1920.jpg?h=324beb479e5f815b451fb510a6dffb6a"
-    },
-    {
-     "w": 3840,
-     "h": 2160,
-     "s": "d8c24aee-636d-4565-8205-7a8379ef1ca5_rw_1200.jpg?h=58c257cfd561dcd16b2d2ccd6afff0e1",
-     "l": "d8c24aee-636d-4565-8205-7a8379ef1ca5_rw_1920.jpg?h=d0bc68ff202d4da0f16c340aa347466c"
-    },
-    {
-     "w": 3840,
-     "h": 6826,
-     "s": "bb3ac35f-b68c-48af-8a64-362acc7f06fd_rw_1200.jpg?h=d94449b00ef0ff29f5bb5f68b385f4c6",
-     "l": "bb3ac35f-b68c-48af-8a64-362acc7f06fd_rw_1920.jpg?h=311e60a4a41cc46c9820dc5db476b53b"
-    },
-    {
-     "w": 3840,
-     "h": 2160,
-     "s": "cf5f56fc-306b-4e7a-bca5-b42befc99150_rw_1200.jpg?h=b16e2214c3af4e56fb3c29e47bf06e9a",
-     "l": "cf5f56fc-306b-4e7a-bca5-b42befc99150_rw_1920.jpg?h=bf0b15a0166c4e21437c5e6615402839"
-    },
-    {
-     "w": 3840,
-     "h": 6826,
-     "s": "2df61f2c-b23c-4079-b4f6-aed49f01ba19_rw_1200.JPG?h=2272b30c1352e45454051b7ed595d64f",
-     "l": "2df61f2c-b23c-4079-b4f6-aed49f01ba19_rw_1920.JPG?h=2f715be2cd8ab734cd2324726be53f1f"
-    },
-    {
-     "w": 3840,
-     "h": 5120,
-     "s": "ccbf59ae-62c6-4801-b080-53a79b13d53c_rw_1200.JPG?h=57081981b56c4e572a29c09fcf269f65",
-     "l": "ccbf59ae-62c6-4801-b080-53a79b13d53c_rw_1920.JPG?h=86e1e8a9b64c6f903983f1793298e715"
-    },
-    {
-     "w": 3840,
-     "h": 5120,
-     "s": "c159f818-d3ff-4dbe-af52-2364a436ec81_rw_1200.JPG?h=dbe55bf186f8766f6e36998e04c6a0f6",
-     "l": "c159f818-d3ff-4dbe-af52-2364a436ec81_rw_1920.JPG?h=dfebcf341daa6d3920f78ff700565d99"
-    },
-    {
-     "w": 3840,
-     "h": 5120,
-     "s": "a7141ee5-6d5b-45db-bc2b-4aa267802bac_rw_1200.JPG?h=bfc38ccb7478a9eee195d91f6943ef0b",
-     "l": "a7141ee5-6d5b-45db-bc2b-4aa267802bac_rw_1920.JPG?h=551d2ca3cd3d444f774ec379dac6caf9"
-    },
-    {
-     "w": 3840,
-     "h": 5120,
-     "s": "f0debbe5-957a-4b8a-a027-706416fe3bf9_rw_1200.jpg?h=1ce498907083cdf6b74e22e8650d84f4",
-     "l": "f0debbe5-957a-4b8a-a027-706416fe3bf9_rw_1920.jpg?h=db20b2ba29556cdda4f305101bd8831e"
     }
    ]
   }
