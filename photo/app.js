@@ -156,7 +156,7 @@
       refs += '<a href="#' + s.id + '">' + n + "</a>";
       idx += '<li><a href="#' + s.id + '"><span class="mono">' + n + '</span><span class="t">' + esc(L(s.title)) +
         "<small>" + esc(L(s.subtitle)) + '</small></span><span class="mono k">' + s.photos.length + " " + t("images") + "</span></a></li>";
-      html += '<section class="sheet serie' + (s.layout === "dark" || s.layout === "rows" ? " dark" : "") + '" id="' + s.id + '" data-n="' + n + '">' +
+      html += '<section class="sheet serie' + (s.layout === "dark" || s.dark ? " dark" : "") + '" id="' + s.id + '" data-n="' + n + '">' +
         '<header class="serie-head">' +
         '<p class="serie-num reveal">' + n + "</p>" +
         '<div class="reveal" style="--d:.08s"><p class="mono k">' + t("serie") + " " + n + " / " + pad(SE.length) + '</p><h2 class="serie-title">' + esc(L(s.title)) + "</h2>" +
