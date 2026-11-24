@@ -22,7 +22,7 @@ window.PHOTO = {
   "cdn": "https://cdn.myportfolio.com/55894a5c-4c80-43e3-87c8-5f0e66777d8e/",
   "hero": {
    "series": "landscapes",
-   "index": 0
+   "index": 4
   },
   "email": "eliottbuchaille@gmail.com",
   "disciplines": {
