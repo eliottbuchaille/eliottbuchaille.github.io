@@ -1183,6 +1183,573 @@ window.PHOTO = {
    }
   },
   {
+   "id": "voyages",
+   "layout": "rows",
+   "photos": [
+    {
+     "w": 1589,
+     "h": 2400,
+     "src": "img/voyages/v137.jpg",
+     "t": "img/voyages/v137-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v126.jpg",
+     "t": "img/voyages/v126-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v127.jpg",
+     "t": "img/voyages/v127-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v139.jpg",
+     "t": "img/voyages/v139-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v142.jpg",
+     "t": "img/voyages/v142-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v144.jpg",
+     "t": "img/voyages/v144-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v146.jpg",
+     "t": "img/voyages/v146-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v148.jpg",
+     "t": "img/voyages/v148-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v157.jpg",
+     "t": "img/voyages/v157-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v120.jpg",
+     "t": "img/voyages/v120-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v122.jpg",
+     "t": "img/voyages/v122-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v134.jpg",
+     "t": "img/voyages/v134-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v091.jpg",
+     "t": "img/voyages/v091-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v083.jpg",
+     "t": "img/voyages/v083-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v102.jpg",
+     "t": "img/voyages/v102-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v117.jpg",
+     "t": "img/voyages/v117-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1392,
+     "h": 2400,
+     "src": "img/voyages/v115.jpg",
+     "t": "img/voyages/v115-1200.jpg",
+     "cap": {
+      "fr": "Tignes et col de l'Iseran — août 2026",
+      "en": "Tignes and Col de l'Iseran — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v161.jpg",
+     "t": "img/voyages/v161-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v164.jpg",
+     "t": "img/voyages/v164-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v171.jpg",
+     "t": "img/voyages/v171-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v172.jpg",
+     "t": "img/voyages/v172-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v163.jpg",
+     "t": "img/voyages/v163-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v177.jpg",
+     "t": "img/voyages/v177-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v182.jpg",
+     "t": "img/voyages/v182-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v184.jpg",
+     "t": "img/voyages/v184-1200.jpg",
+     "cap": {
+      "fr": "Lac d'Annecy et Aravis — janvier 2026",
+      "en": "Lake Annecy and the Aravis — January 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v214.jpg",
+     "t": "img/voyages/v214-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v219.jpg",
+     "t": "img/voyages/v219-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v213.jpg",
+     "t": "img/voyages/v213-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v218.jpg",
+     "t": "img/voyages/v218-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v227.jpg",
+     "t": "img/voyages/v227-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v225.jpg",
+     "t": "img/voyages/v225-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v232.jpg",
+     "t": "img/voyages/v232-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v235.jpg",
+     "t": "img/voyages/v235-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v482.jpg",
+     "t": "img/voyages/v482-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v493.jpg",
+     "t": "img/voyages/v493-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v501.jpg",
+     "t": "img/voyages/v501-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v499.jpg",
+     "t": "img/voyages/v499-1200.jpg",
+     "cap": {
+      "fr": "Cavalaire, Var — juin 2026",
+      "en": "Cavalaire, Var — June 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v003.jpg",
+     "t": "img/voyages/v003-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v019.jpg",
+     "t": "img/voyages/v019-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v064.jpg",
+     "t": "img/voyages/v064-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v008.jpg",
+     "t": "img/voyages/v008-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v041.jpg",
+     "t": "img/voyages/v041-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v069.jpg",
+     "t": "img/voyages/v069-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v065.jpg",
+     "t": "img/voyages/v065-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v000.jpg",
+     "t": "img/voyages/v000-1200.jpg",
+     "cap": {
+      "fr": "Palais idéal du Facteur Cheval, Drôme — août 2026",
+      "en": "Facteur Cheval's Ideal Palace, Drôme — August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v508.jpg",
+     "t": "img/voyages/v508-1200.jpg",
+     "cap": {
+      "fr": "Côte d'Azur — été 2025",
+      "en": "French Riviera — summer 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v510.jpg",
+     "t": "img/voyages/v510-1200.jpg",
+     "cap": {
+      "fr": "Côte d'Azur — été 2025",
+      "en": "French Riviera — summer 2025"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/voyages/v514.jpg",
+     "t": "img/voyages/v514-1200.jpg",
+     "cap": {
+      "fr": "Côte d'Azur — été 2025",
+      "en": "French Riviera — summer 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/voyages/v511.jpg",
+     "t": "img/voyages/v511-1200.jpg",
+     "cap": {
+      "fr": "Côte d'Azur — été 2025",
+      "en": "French Riviera — summer 2025"
+     }
+    }
+   ],
+   "rows": [
+    [
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ],
+    [
+     17,
+     18
+    ],
+    [
+     25,
+     26,
+     27
+    ],
+    [
+     37,
+     38
+    ],
+    [
+     19,
+     20
+    ],
+    [
+     45,
+     46
+    ]
+   ],
+   "title": {
+    "fr": "Voyages",
+    "en": "Travel"
+   },
+   "subtitle": {
+    "fr": "Montagne, lacs, Méditerranée",
+    "en": "Mountains, lakes, the Mediterranean"
+   },
+   "place": {
+    "fr": "Alpes · Drôme · Côte d'Azur",
+    "en": "Alps · Drôme · French Riviera"
+   },
+   "year": "2025 — 2026",
+   "text": {
+    "fr": "Carnet de route entre les Alpes et la Méditerranée : Tignes et le glacier de la Grande Motte, le lac d'Annecy en hiver, les criques turquoise de Cavalaire, le Palais idéal du Facteur Cheval et les soirs sur la Côte d'Azur.",
+    "en": "A travel log between the Alps and the Mediterranean: Tignes and the Grande Motte glacier, Lake Annecy in winter, the turquoise coves of Cavalaire, Facteur Cheval's Ideal Palace and evenings on the French Riviera."
+   },
+   "featured": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    17,
+    18,
+    25,
+    26,
+    27,
+    37,
+    38,
+    19,
+    20,
+    45,
+    46
+   ]
+  },
+  {
    "id": "street",
    "layout": "register",
    "featured": [
@@ -1483,8 +2050,8 @@ window.PHOTO = {
     0,
     1,
     4,
-    6,
-    7
+    9,
+    10
    ],
    "title": {
     "fr": "Automobile",
@@ -1600,6 +2167,66 @@ window.PHOTO = {
      "cap": {
       "fr": "Los Angeles — août 2023",
       "en": "Los Angeles — August 2023"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/v573.jpg",
+     "t": "img/auto/v573-1200.jpg",
+     "cap": {
+      "fr": "Cannes — été 2025",
+      "en": "Cannes — summer 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/v576.jpg",
+     "t": "img/auto/v576-1200.jpg",
+     "cap": {
+      "fr": "Cannes — été 2025",
+      "en": "Cannes — summer 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/v558.jpg",
+     "t": "img/auto/v558-1200.jpg",
+     "cap": {
+      "fr": "Cannes — été 2025",
+      "en": "Cannes — summer 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/v540.jpg",
+     "t": "img/auto/v540-1200.jpg",
+     "cap": {
+      "fr": "Cannes — été 2025",
+      "en": "Cannes — summer 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/v527.jpg",
+     "t": "img/auto/v527-1200.jpg",
+     "cap": {
+      "fr": "Cannes — été 2025",
+      "en": "Cannes — summer 2025"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/auto/v594.jpg",
+     "t": "img/auto/v594-1200.jpg",
+     "cap": {
+      "fr": "Cannes — été 2025",
+      "en": "Cannes — summer 2025"
      }
     }
    ]
