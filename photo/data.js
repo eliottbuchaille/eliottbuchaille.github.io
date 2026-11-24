@@ -16,7 +16,7 @@ window.PHOTO = {
  "site": {
   "name": "Eliott Buchaille",
   "volume": "Vol. I",
-  "place": "Lyon — Genève",
+  "place": "Lyon — Haute-Savoie",
   "year": "2026",
   "archive": "EB-PH-26",
   "cdn": "https://cdn.myportfolio.com/55894a5c-4c80-43e3-87c8-5f0e66777d8e/",
