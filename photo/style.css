@@ -221,4 +221,4 @@ a.ph{display:block}
 .jitem{min-width:0}
 .jitem .cap{margin-top:8px}
 @media (max-width:700px){.jrow{flex-direction:column}.jitem{flex:none!important;width:100%}}
-#astro .jrow:last-child{max-width:860px;margin-left:auto;margin-right:auto}
+#astro .jrow:last-of-type{max-width:860px;margin-left:auto;margin-right:auto}
