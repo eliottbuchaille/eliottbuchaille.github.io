@@ -7,7 +7,7 @@
 
    featured : numéros (à partir de 0) des photos mises en avant sur l'accueil,
               dans l'ordre. Toutes les photos restent visibles via « Voir toute la série ».
-   layout   : "spread" double page · "wide" grande image · "register" grille numérotée
+   layout   : "rows" rangées justifiées (rows = lignes de photos) · "spread" double page · "wide" grande image · "register" grille numérotée
               · "dark" fond noir · "strip" bandeau
    blur     : zones floutées sur une photo (plaques), en % : [gauche, haut, droite, bas].
    Les textes sont en deux langues : { "fr": "...", "en": "..." }.
@@ -21,17 +21,17 @@ window.PHOTO = {
   "archive": "EB-PH-26",
   "cdn": "https://cdn.myportfolio.com/55894a5c-4c80-43e3-87c8-5f0e66777d8e/",
   "hero": {
-   "series": "landscapes",
-   "index": 19
+   "series": "astro",
+   "index": 0
   },
   "email": "eliottbuchaille@gmail.com",
   "disciplines": {
-   "fr": "Paysage · Street · Mariage · Automobile · Aérien",
-   "en": "Landscape · Street · Weddings · Automotive · Aerial"
+   "fr": "Astro · Paysage · Street · Mariage · Automobile · Aérien",
+   "en": "Astro · Landscape · Street · Weddings · Automotive · Aerial"
   },
   "intro": {
-   "fr": "Photographe français basé à Lyon. Paysages, mariages, rue, automobile et vues aériennes.",
-   "en": "French photographer based in Lyon. Landscapes, weddings, street, automotive and aerial photography."
+   "fr": "Photographe français basé à Lyon. Astrophotographie, paysages, mariages, rue, automobile et vues aériennes.",
+   "en": "French photographer based in Lyon. Astrophotography, landscapes, weddings, street, automotive and aerial photography."
   },
   "about": {
    "fr": [
@@ -47,10 +47,207 @@ window.PHOTO = {
    "Canon EOS R7",
    "Sigma 17-40 mm f/1.8",
    "DJI Mini 3",
-   "iPhone ProRAW"
+   "Sequator · Siril · Lightroom · Photoshop"
   ]
  },
  "series": [
+  {
+   "id": "astro",
+   "layout": "rows",
+   "rows": [
+    [
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4,
+     5,
+     9
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     11,
+     12
+    ]
+   ],
+   "featured": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "title": {
+    "fr": "Astrophotographie",
+    "en": "Astrophotography"
+   },
+   "subtitle": {
+    "fr": "Voie lactée, Lune, ciel profond",
+    "en": "Milky Way, Moon, deep sky"
+   },
+   "place": {
+    "fr": "Alpes · Ouest américain",
+    "en": "Alps · American West"
+   },
+   "year": "2024 — 2026",
+   "text": {
+    "fr": "Des nuits en altitude, du col de l'Iseran au lac Guichard jusqu'aux déserts de l'Utah : la Voie lactée au-dessus des reliefs, des dizaines de poses empilées et des panoramas assemblés image par image.",
+    "en": "Nights at altitude, from the Col de l'Iseran to Lac Guichard and the deserts of Utah: the Milky Way above the peaks, dozens of stacked exposures and panoramas stitched frame by frame."
+   },
+   "photos": [
+    {
+     "w": 3000,
+     "h": 1677,
+     "src": "img/astro/01-iseran-pano.jpg",
+     "t": "img/astro/01-iseran-pano-1200.jpg",
+     "cap": {
+      "fr": "Col de l'Iseran — panorama, août 2026",
+      "en": "Col de l'Iseran — panorama, August 2026"
+     }
+    },
+    {
+     "w": 1600,
+     "h": 2400,
+     "src": "img/astro/02-tignes-chapelle.jpg",
+     "t": "img/astro/02-tignes-chapelle-1200.jpg",
+     "cap": {
+      "fr": "Tignes — chapelle sous la Voie lactée, août 2026",
+      "en": "Tignes — chapel under the Milky Way, August 2026"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/astro/03-tignes-falaises.jpg",
+     "t": "img/astro/03-tignes-falaises-1200.jpg",
+     "cap": {
+      "fr": "Tignes — août 2026",
+      "en": "Tignes — August 2026"
+     }
+    },
+    {
+     "w": 3000,
+     "h": 1641,
+     "src": "img/astro/04-guichard-arche.jpg",
+     "t": "img/astro/04-guichard-arche-1200.jpg",
+     "cap": {
+      "fr": "Lac Guichard — arche de la Voie lactée, panorama",
+      "en": "Lac Guichard — Milky Way arch, panorama"
+     }
+    },
+    {
+     "w": 1280,
+     "h": 1920,
+     "src": "img/astro/05-guichard-etoile-filante.jpg",
+     "t": "img/astro/05-guichard-etoile-filante-1200.jpg",
+     "cap": {
+      "fr": "Lac Guichard — étoile filante, 100 poses empilées",
+      "en": "Lac Guichard — shooting star, 100 stacked frames"
+     }
+    },
+    {
+     "w": 1280,
+     "h": 1920,
+     "src": "img/astro/06-guichard-reflet.jpg",
+     "t": "img/astro/06-guichard-reflet-1200.jpg",
+     "cap": {
+      "fr": "Lac Guichard — reflet",
+      "en": "Lac Guichard — reflection"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/astro/07-usa-rocher.jpg",
+     "t": "img/astro/07-usa-rocher-1200.jpg",
+     "cap": {
+      "fr": "Ouest américain",
+      "en": "American West"
+     }
+    },
+    {
+     "w": 1920,
+     "h": 2400,
+     "src": "img/astro/08-usa-rocher-vertical.jpg",
+     "t": "img/astro/08-usa-rocher-vertical-1200.jpg",
+     "cap": {
+      "fr": "Ouest américain",
+      "en": "American West"
+     }
+    },
+    {
+     "w": 2400,
+     "h": 1600,
+     "src": "img/astro/09-usa-hat-rock.jpg",
+     "t": "img/astro/09-usa-hat-rock-1200.jpg",
+     "cap": {
+      "fr": "Hat Rock, Utah",
+      "en": "Hat Rock, Utah"
+     }
+    },
+    {
+     "w": 1601,
+     "h": 2400,
+     "src": "img/astro/10-grand-colombier.jpg",
+     "t": "img/astro/10-grand-colombier-1200.jpg",
+     "cap": {
+      "fr": "Grand Colombier — juin 2025",
+      "en": "Grand Colombier — June 2025"
+     }
+    },
+    {
+     "w": 1350,
+     "h": 2400,
+     "src": "img/astro/11-orion-glieres.jpg",
+     "t": "img/astro/11-orion-glieres-1200.jpg",
+     "cap": {
+      "fr": "Nébuleuse d'Orion (M42) — Glières, février 2026",
+      "en": "Orion Nebula (M42) — Glières, February 2026"
+     }
+    },
+    {
+     "w": 1655,
+     "h": 1724,
+     "src": "img/astro/12-lune.jpg",
+     "t": "img/astro/12-lune-1200.jpg",
+     "cap": {
+      "fr": "Lune — septembre 2025",
+      "en": "Moon — September 2025"
+     }
+    },
+    {
+     "w": 2000,
+     "h": 2000,
+     "src": "img/astro/13-lune-minerale.jpg",
+     "t": "img/astro/13-lune-minerale-1200.jpg",
+     "cap": {
+      "fr": "Lune minérale — août 2024",
+      "en": "Mineral Moon — August 2024"
+     }
+    }
+   ]
+  },
   {
    "id": "weddings",
    "layout": "spread",

@@ -215,3 +215,10 @@ a.ph{display:block}
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.plate{background:#8a8780}}
 .lb-wrap{position:relative;display:inline-block;line-height:0}
 .lb-wrap .plate{-webkit-backdrop-filter:blur(16px) saturate(.6);backdrop-filter:blur(16px) saturate(.6)}
+
+/* rangées justifiées (astro) */
+.jrow{display:flex;gap:var(--gap);align-items:flex-start;margin-bottom:clamp(24px,3.4vw,48px)}
+.jitem{min-width:0}
+.jitem .cap{margin-top:8px}
+@media (max-width:700px){.jrow{flex-direction:column}.jitem{flex:none!important;width:100%}}
+#astro .jrow:last-child{max-width:860px;margin-left:auto;margin-right:auto}

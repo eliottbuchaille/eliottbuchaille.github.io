@@ -33,7 +33,7 @@
 
   /* ---------- images ---------- */
   function urls(p) {
-    if (p.src) return { s: p.src, l: p.src, set: "" };
+    if (p.src) return { s: p.t || p.src, l: p.src, set: p.t ? p.t + " 1200w, " + p.src + " " + Math.max(p.w, p.h) + "w" : "" };
     var s = S.cdn + p.s, l = S.cdn + p.l;
     return { s: s, l: l, set: s + " 1200w, " + l + " 1920w" };
   }
@@ -88,6 +88,16 @@
         return '<div class="reveal" style="--d:' + (i % 3) * 0.08 + 's"><p class="mono num">' + pad(k + 1) + "</p>" +
           frame(si, k, "4/5", "(max-width:640px) 50vw, 30vw") + '<p class="mono" style="margin-top:8px">—</p></div>';
       }).join("") + "</div>";
+    },
+    rows: function (si) {
+      var s = SE[si];
+      return (s.rows || [s.featured]).map(function (row, r) {
+        return '<div class="jrow reveal" style="--d:' + (r % 2) * 0.06 + 's">' + row.map(function (k) {
+          var p = s.photos[k];
+          return '<figure class="jitem" style="flex:' + (p.w / p.h).toFixed(4) + ' 1 0">' + frame(si, k, null, Math.round(100 * (p.w / p.h) / row.reduce(function (a, j) { return a + s.photos[j].w / s.photos[j].h; }, 0)) + "vw") +
+            '<figcaption class="cap mono"><span>' + pad(k + 1) + '</span><span class="c">' + esc(L(p.cap) || "—") + "</span></figcaption></figure>";
+        }).join("") + "</div>";
+      }).join("");
     },
     dark: function (si) {
       var s = SE[si];
@@ -146,7 +156,7 @@
       refs += '<a href="#' + s.id + '">' + n + "</a>";
       idx += '<li><a href="#' + s.id + '"><span class="mono">' + n + '</span><span class="t">' + esc(L(s.title)) +
         "<small>" + esc(L(s.subtitle)) + '</small></span><span class="mono k">' + s.photos.length + " " + t("images") + "</span></a></li>";
-      html += '<section class="sheet serie' + (s.layout === "dark" ? " dark" : "") + '" id="' + s.id + '" data-n="' + n + '">' +
+      html += '<section class="sheet serie' + (s.layout === "dark" || s.layout === "rows" ? " dark" : "") + '" id="' + s.id + '" data-n="' + n + '">' +
         '<header class="serie-head">' +
         '<p class="serie-num reveal">' + n + "</p>" +
         '<div class="reveal" style="--d:.08s"><p class="mono k">' + t("serie") + " " + n + " / " + pad(SE.length) + '</p><h2 class="serie-title">' + esc(L(s.title)) + "</h2>" +
@@ -154,9 +164,9 @@
         "</dd><dt>" + t("year") + "</dt><dd>" + esc(s.year) + "</dd></dl></div>" +
         '<p class="serie-text reveal" style="--d:.16s">' + esc(L(s.text)) + "</p>" +
         "</header>" + (LAY[s.layout] || LAY.register)(i) +
-        '<div class="more"><button class="more-btn mono" type="button" data-more="' + i + '" aria-expanded="false" aria-controls="full-' + s.id + '">' +
+        (s.featured.length >= s.photos.length ? "" : '<div class="more"><button class="more-btn mono" type="button" data-more="' + i + '" aria-expanded="false" aria-controls="full-' + s.id + '">' +
         '<span class="lbl">' + t("see_all") + "</span> (" + s.photos.length + ') <span class="arr">↓</span></button></div>' +
-        '<div class="full-grid" id="full-' + s.id + '" hidden></div>' +
+        '<div class="full-grid" id="full-' + s.id + '" hidden></div>') +
         "</section>";
     });
     $("cats").innerHTML = cats;
@@ -199,7 +209,8 @@
     cs = si; ck = (k + n) % n;
     var u = urls(s.photos[ck]);
     media.innerHTML = '<span class="lb-wrap"><img src="' + esc(u.l) + '" alt="' + esc(L(s.title) + " " + pad(ck + 1)) + '">' + blurs(s.photos[ck]) + "</span>";
-    lbCap.textContent = L(s.title) + " — " + pad(ck + 1) + " / " + pad(n);
+    var pc = L(s.photos[ck].cap);
+    lbCap.textContent = L(s.title) + " — " + pad(ck + 1) + " / " + pad(n) + (pc ? "   ·   " + pc : "");
     // précharge la suivante
     var nx = new Image(); nx.src = urls(s.photos[(ck + 1) % n]).l;
   }
